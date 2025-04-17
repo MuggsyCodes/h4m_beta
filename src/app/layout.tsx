@@ -6,8 +6,8 @@ import Navigation from "@/components/layout/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Marek Health Clone",
-  description: "A learning project recreating the Marek Health website",
+  title: "Hormones for Me",
+  description: "The world's leading hormone optimization authority",
 };
 
 export default function RootLayout({
