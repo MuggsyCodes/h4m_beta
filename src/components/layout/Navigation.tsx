@@ -48,9 +48,14 @@ export default function Navigation() {
             >
               Contact
             </a>
-            <button className="bg-transparent text-white border-2 border-white px-8 py-2 rounded-full hover:bg-white hover:text-red-500 transition-all duration-300">
+            <a
+              href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-transparent text-white border-2 border-white px-8 py-2 rounded-full transition-all duration-300 ease-in-out [&:hover]:bg-white [&:hover]:text-red-600"
+            >
               Start treatment online
-            </button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -96,9 +101,14 @@ export default function Navigation() {
               >
                 Contact
               </a>
-              <button className="w-full mt-4 bg-transparent text-white border-2 border-white px-8 py-2 rounded-full hover:bg-white hover:text-black transition-all duration-300">
-                Get Started
-              </button>
+              <a
+                href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full mt-4 bg-transparent text-white border-2 border-white px-8 py-2 rounded-full transition-all duration-300 ease-in-out text-center [&:hover]:bg-white [&:hover]:text-red-600"
+              >
+                Start treatment online
+              </a>
             </div>
           </div>
         )}
