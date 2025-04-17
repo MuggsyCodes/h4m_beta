@@ -6,7 +6,7 @@ export default function Explanatory() {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl text-white mb-4">
-            Let's face it, traditional healthcare is{" "}
+            Let&apos;s face it, traditional healthcare is{" "}
             <span className="text-red-500">broken</span>. You deserve better
             than stubborn insurance companies, overworked physicians, and
             outdated treatment guidelines.
