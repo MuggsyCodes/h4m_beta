@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 30s linear infinite;
+  white-space: nowrap;
+}
+
+.logoContainer {
+  flex-shrink: 0;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 120px;
+}
+
+.logo {
+  width: auto !important;
+  height: auto !important;
+  max-height: 100px !important;
+  object-fit: contain;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 1.5rem));
+  }
+}
