@@ -5,7 +5,6 @@ import FeaturedOn from "@/components/sections/FeaturedOn";
 import { ScrollButtons } from "@/components/sections/ButtonCarousel";
 import Call2Action from "@/components/sections/Call2Action";
 import { CarouselSpacing } from "@/components/sections/OptimizeCard";
-import { HeroVideoDialogDemoTopInBottomOut } from "@/components/sections/VideoIntro";
 
 export default function Home() {
   return (
