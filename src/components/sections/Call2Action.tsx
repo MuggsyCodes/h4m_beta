@@ -62,7 +62,7 @@ const Call2Action = () => {
 
   return (
     <section className="bg-white rounded-3xl mx-4 md:mx-8 lg:mx-auto max-w-7xl p-8 my-16">
-      <div className="grid md:grid-cols-2 gap-8 items-center">
+      <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
         <div className="relative w-full h-[500px] md:h-[600px]">
           <Image
             src="/call-2-action.webp"
@@ -116,25 +116,23 @@ const Call2Action = () => {
               <span className="text-sm text-gray-500 uppercase">SRP</span>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div className={styles.bottomCarousel}>
-            <div className={styles.marquee}>
-              {/* First set of items */}
-              {bottomItems.map((item, index) => (
-                <div key={index} className={styles.item}>
-                  {item.icon}
-                  <span>{item.text}</span>
-                </div>
-              ))}
-              {/* Duplicate set for seamless loop */}
-              {bottomItems.map((item, index) => (
-                <div key={`duplicate-${index}`} className={styles.item}>
-                  {item.icon}
-                  <span>{item.text}</span>
-                </div>
-              ))}
+      <div className={styles.bottomCarousel}>
+        <div className={styles.marquee}>
+          {bottomItems.map((item, index) => (
+            <div key={index} className={styles.item}>
+              {item.icon}
+              <span>{item.text}</span>
             </div>
-          </div>
+          ))}
+          {bottomItems.map((item, index) => (
+            <div key={`duplicate-${index}`} className={styles.item}>
+              {item.icon}
+              <span>{item.text}</span>
+            </div>
+          ))}
         </div>
       </div>
     </section>

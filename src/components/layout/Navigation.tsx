@@ -54,7 +54,7 @@ export default function Navigation() {
               rel="noopener noreferrer"
               className="bg-transparent text-white border-2 border-white px-8 py-2 rounded-full transition-all duration-300 ease-in-out [&:hover]:bg-white [&:hover]:text-red-600"
             >
-              Start treatment online
+              Start Treatment
             </a>
           </div>
 
