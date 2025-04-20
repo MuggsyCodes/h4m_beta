@@ -6,14 +6,23 @@ import styles from "./FeaturedOn.module.css";
 
 const FeaturedOn = () => {
   const logos = [
-    { src: "/impact-theory-logo.webp", alt: "Impact Theory" },
-    { src: "/joe-rogan-experience-logo.webp", alt: "The Joe Rogan Experience" },
-    { src: "/jordan-peterson-logo.webp", alt: "Jordan Peterson" },
-    { src: "/mark-manson-logo.webp", alt: "Mark Manson" },
-    { src: "/modern-wisdom-logo.webp", alt: "Modern Wisdom" },
-    { src: "/power-project-logo.webp", alt: "Power Project" },
-    { src: "/brett-cooper-logo-v2.webp", alt: "Brett Cooper Show" },
-    { src: "/drive-logo.webp", alt: "Drive" },
+    { src: "/featured-on/think-big-bw-transparent.png", alt: "Think Big" },
+    { src: "/featured-on/todd-lee-bw-transparent.png", alt: "Todd Lee" },
+    { src: "/featured-on/RP-bw-transparent.png", alt: "RP" },
+    { src: "/featured-on/cortex-labs-bw-transparent.png", alt: "Cortex Labs" },
+    {
+      src: "/featured-on/overcome-podcast-bw-transparent.png",
+      alt: "Overcome Podcast",
+    },
+    {
+      src: "/featured-on/anabolic-bodybuilding-bw-transparent.png",
+      alt: "Anabolic Bodybuilding",
+    },
+    { src: "/featured-on/danny-jones-bw-transparent.png", alt: "Danny Jones" },
+    {
+      src: "/featured-on/carnivore-cast-logo-4-bw-transparent.png",
+      alt: "Carnivore Cast",
+    },
   ];
 
   return (
@@ -31,8 +40,8 @@ const FeaturedOn = () => {
                 <Image
                   src={logo.src}
                   alt={logo.alt}
-                  width={240}
-                  height={100}
+                  width={280}
+                  height={180}
                   className={styles.logo}
                 />
               </div>
@@ -43,8 +52,8 @@ const FeaturedOn = () => {
                 <Image
                   src={logo.src}
                   alt={logo.alt}
-                  width={240}
-                  height={100}
+                  width={280}
+                  height={180}
                   className={styles.logo}
                 />
               </div>

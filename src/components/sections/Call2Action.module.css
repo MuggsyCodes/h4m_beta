@@ -1,0 +1,39 @@
+.bottomCarousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #c84b31;
+  border-radius: 9999px;
+  padding: 1rem;
+}
+
+.marquee {
+  display: flex;
+  animation: scrolling 20s linear infinite;
+  white-space: nowrap;
+}
+
+.item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  padding: 0 2rem;
+  font-size: 0.875rem;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
