@@ -122,7 +122,7 @@ export function EducationModal({ trigger }: EducationModalProps) {
                 >
                   <option value="">Select your interest</option>
                   <option value="start">
-                    I'm interested, but don't know where to start
+                    I&apos;m interested, but don&apos;t know where to start
                   </option>
                   <option value="hrt">
                     What is hormone replacement therapy?
