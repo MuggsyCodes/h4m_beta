@@ -9,7 +9,7 @@ const Call2Action = () => {
     {
       text: "Personalized Assessment",
       description:
-        "Meet your expert Marek Health Coach to discuss your symptoms and goals. Order and complete your customized diagnostic lab testing with our world-class laboratory partner.",
+        "Meet your expert Hormones for Me Health Coach to discuss your symptoms and goals. Order and complete your customized diagnostic lab testing with our world-class laboratory partner.",
     },
     {
       text: "In-Depth Lab Analysis",
@@ -19,17 +19,17 @@ const Call2Action = () => {
     {
       text: "Expert Medical Oversight",
       description:
-        "A 25-minute consultation with a licensed medical provider to discuss your health blueprint and prescription treatments.",
+        "A consultation with a licensed medical provider to discuss your health blueprint and prescription treatments.",
     },
     {
       text: "Delivered To Your Door",
       description:
-        "Exclusive access to Marek Health's FDA-approved pharmacies and supplement dispensaries.",
+        "Exclusive access to Hormones for Me's FDA-approved pharmacies and supplement dispensaries.",
     },
     {
       text: "Proactive Care",
       description:
-        "Monthly Marek Health Coach check-ins, treatment refills, follow-up lab work, and continuous support for health optimization.",
+        "Regular Hormones for Me Coach check-ins, treatment refills, follow-up lab work, and continuous support for health optimization.",
     },
   ];
 
@@ -101,20 +101,15 @@ const Call2Action = () => {
             ))}
           </div>
 
-          <div className="mt-8 flex items-center gap-6">
+          <div className="mt-8 flex items-center justify-center w-full">
             <a
               href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
-              className="bg-[#C84B31] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#A33D28] transition-colors"
+              className="bg-[#C84B31] text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-[#A33D28] transition-colors"
               target="_blank"
               rel="noopener noreferrer"
             >
               Start treatment online
             </a>
-            <div className="flex items-center gap-2">
-              <span className="text-3xl text-black font-bold italic">$250</span>
-              <span className="text-xl text-gray-500 line-through">$500</span>
-              <span className="text-sm text-gray-500 uppercase">SRP</span>
-            </div>
           </div>
         </div>
       </div>

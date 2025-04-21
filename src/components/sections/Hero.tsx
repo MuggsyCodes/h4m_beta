@@ -5,7 +5,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import type { Engine } from "tsparticles-engine";
-import { HeroVideoDialogDemoTopInBottomOut as VideoIntro } from "@/components/sections/VideoIntro";
+// import { EducationModal } from "@/components/EducationModal";
 
 export default function Hero() {
   const particlesInit = useCallback(async (engine: Engine) => {
@@ -112,24 +112,6 @@ export default function Hero() {
                 </li>
               ))}
             </ul>
-
-            <a
-              href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-transparent text-white border-2 border-white px-8 py-2 rounded-full hover:bg-white hover:text-black transition-all duration-300"
-            >
-              Start Treatment
-            </a>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative h-full flex items-center justify-center"
-          >
-            <VideoIntro />
           </motion.div>
         </div>
       </div>
