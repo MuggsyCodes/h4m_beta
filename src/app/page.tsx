@@ -8,6 +8,8 @@ import { CarouselSpacing } from "@/components/sections/OptimizeCard";
 import EducationSection from "@/components/sections/EducationSection";
 import Process from "@/components/Process";
 import Testimonials from "@/components/sections/Testimonials";
+import BookCallSection from "@/components/BookCallSection";
+import NewsletterSection from "@/components/NewsletterSection";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
       <CarouselSpacing />
       <Process />
       <Testimonials />
+      <BookCallSection />
+      <NewsletterSection />
     </main>
   );
 }
