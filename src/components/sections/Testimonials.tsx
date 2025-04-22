@@ -87,9 +87,9 @@ export default function Testimonials() {
           </h2>
           <p className="text-gray-400 text-lg">
             We can tell you why Hormones for Me is the future of health
-            optimization all day long, but we'd rather you hear it from our
-            clients. You can read all of our 5 star reviews... but it's gonna
-            take a while.
+            optimization all day long, but we&rsquo;d rather you hear it from
+            our clients. You can read all of our 5 star reviews... but
+            it&rsquo;s gonna take a while.
           </p>
         </div>
 
