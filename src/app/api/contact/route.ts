@@ -1,7 +1,10 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Initialize Resend with API key, or null if not available
+const resend = process.env.RESEND_API_KEY
+  ? new Resend(process.env.RESEND_API_KEY)
+  : null;
 
 export async function POST(request: Request) {
   try {
@@ -14,6 +17,19 @@ export async function POST(request: Request) {
         { error: "Missing required fields" },
         { status: 400 }
       );
+    }
+
+    // Check if Resend is properly configured
+    if (!resend) {
+      console.warn(
+        "Resend API key not configured. Email would have been sent to:",
+        email
+      );
+      // In development/testing, return success to allow frontend testing
+      return NextResponse.json({
+        success: true,
+        message: "Email sending skipped - Resend not configured",
+      });
     }
 
     // Construct email content
