@@ -42,12 +42,14 @@ export default function Process() {
   return (
     <section className="bg-black text-white py-16 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-4">Our expert process.</h2>
-        <p className="text-gray-400 mb-12">
-          Our 4 step process was developed with convenience in mind. We partner
-          with medical providers to bring high quality treatment straight to
-          your door.
-        </p>
+        <div className="max-w-[50%] mb-12">
+          <h2 className="text-3xl font-bold mb-4">Our expert process.</h2>
+          <p className="text-gray-400 text-lg">
+            Our 4 step process was developed with convenience in mind. We
+            partner with medical providers to bring high quality treatment
+            straight to your door.
+          </p>
+        </div>
 
         <div className="flex gap-24">
           <div className="w-[240px]">

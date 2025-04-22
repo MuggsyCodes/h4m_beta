@@ -7,6 +7,7 @@ import Call2Action from "@/components/sections/Call2Action";
 import { CarouselSpacing } from "@/components/sections/OptimizeCard";
 import EducationSection from "@/components/sections/EducationSection";
 import Process from "@/components/Process";
+import Testimonials from "@/components/sections/Testimonials";
 
 export default function Home() {
   return (
@@ -15,12 +16,12 @@ export default function Home() {
       <EducationSection />
       <ScrollButtons />
       <Explanatory />
-
       <GuidedOptimization />
       {/* <FeaturedOn /> */}
       <Call2Action />
       <CarouselSpacing />
       <Process />
+      <Testimonials />
     </main>
   );
 }
