@@ -15,7 +15,7 @@ export default function BookCallSection() {
             <span className="text-[#7DCCCC]">Hormones for Me?</span>
           </h2>
           <p className="text-gray-400 text-lg mb-8">
-            In this 30 minute session, we'll delve into your health goals,
+            In this 30 minute session, we&apos;ll delve into your health goals,
             objectives, and challenges. Your input will help us assess if our
             services align with your goals.
           </p>

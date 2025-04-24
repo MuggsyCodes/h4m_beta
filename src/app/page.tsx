@@ -25,7 +25,7 @@ export default function Home() {
       <Call2Action />
       <CarouselSpacing />
       <div className="flex flex-col gap-4">
-        <div className="text-center text-white text-2xl font-semibold mt-8">
+        <div className="text-center text-white text-2xl font-semibold mt-6">
           Process Version A (Currnt H4M)
         </div>
         <ProcessAlt />
