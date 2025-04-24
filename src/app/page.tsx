@@ -7,9 +7,11 @@ import Call2Action from "@/components/sections/Call2Action";
 import { CarouselSpacing } from "@/components/sections/OptimizeCard";
 import EducationSection from "@/components/sections/EducationSection";
 import Process from "@/components/Process";
+import ProcessAlt from "@/components/ProcessAlt";
 import Testimonials from "@/components/sections/Testimonials";
 import BookCallSection from "@/components/BookCallSection";
 import NewsletterSection from "@/components/NewsletterSection";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -22,10 +24,20 @@ export default function Home() {
       {/* <FeaturedOn /> */}
       <Call2Action />
       <CarouselSpacing />
-      <Process />
+      <div className="flex flex-col gap-4">
+        <div className="text-center text-white text-2xl font-semibold mt-8">
+          Process Version A (Currnt H4M)
+        </div>
+        <ProcessAlt />
+        <div className="text-center text-white text-2xl font-semibold">
+          Process Version B (Marek Flavor)
+        </div>
+        <Process />
+      </div>
       <Testimonials />
       <BookCallSection />
       <NewsletterSection />
+      <FAQ />
     </main>
   );
 }

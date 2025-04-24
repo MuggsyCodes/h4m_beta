@@ -16,14 +16,14 @@ export default function Footer() {
               href="mailto:Info@HormonesforMe.com"
               className="text-blue-400 hover:text-blue-300 transition-colors"
             >
-              Info@HormonesforMe.com
+              support@hormonesforme.com
             </a>
             <div className="mt-4">
               <a
                 href="tel:1-877-572-2582"
                 className="text-white hover:text-gray-300 transition-colors"
               >
-                Phone: 1 (877) 572 2582
+                Phone: 1 (813) 563 2565
               </a>
             </div>
             <p className="text-gray-400 mt-4 text-sm">
@@ -40,23 +40,15 @@ export default function Footer() {
           {/* More Info */}
           <div>
             <h3 className="text-lg font-semibold mb-6">More Info</h3>
+            <div className="mb-6">
+              <h4 className="font-semibold mb-2">Address</h4>
+              <p className="text-gray-400">
+                7901 4th St N, Ste 300
+                <br />
+                St. Petersburg, FL 33702, US
+              </p>
+            </div>
             <ul className="space-y-3">
-              <li>
-                <Link
-                  href="/careers"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/legal"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Legal
-                </Link>
-              </li>
               <li>
                 <Link
                   href="/refund-policy"
