@@ -72,14 +72,14 @@ export default function Hero() {
 
       {/* Content */}
       <div className="flex-1 flex items-center">
-        <div className="w-full px-4 pt-16 text-center md:text-left md:container md:mx-auto md:pt-32">
+        <div className="w-full px-4 pt-16 text-center md:text-left md:container md:mx-auto md:pt-32 overflow-x-hidden">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-[600px] mx-auto md:mx-0"
+            className="max-w-[600px] mx-auto md:mx-0 relative"
           >
-            <h1 className="text-4xl md:text-6xl text-white font-bold mb-4 md:mb-6 tracking-tight">
+            <h1 className="text-4xl md:text-6xl text-white font-bold mb-4 md:mb-6 tracking-tight break-words">
               TAKE CHARGE OF
               <br />
               YOUR HEALTH WITH

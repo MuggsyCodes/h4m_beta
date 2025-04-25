@@ -15,29 +15,31 @@ import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black">
-      <Hero />
-      <EducationSection />
-      <ScrollButtons />
-      <Explanatory />
-      <GuidedOptimization />
-      {/* <FeaturedOn /> */}
-      <Call2Action />
-      <CarouselSpacing />
-      <div className="flex flex-col gap-4">
-        <div className="text-center text-white text-2xl font-semibold mt-6">
-          Process Version A (Currnt H4M)
+    <main className="min-h-screen bg-black w-full overflow-x-hidden">
+      <div className="max-w-[100vw] overflow-x-hidden">
+        <Hero />
+        <EducationSection />
+        <ScrollButtons />
+        <Explanatory />
+        <GuidedOptimization />
+        {/* <FeaturedOn /> */}
+        <Call2Action />
+        <CarouselSpacing />
+        <div className="flex flex-col gap-4">
+          <div className="text-center text-white text-2xl font-semibold mt-6">
+            Process Version A (Currnt H4M)
+          </div>
+          <ProcessAlt />
+          <div className="text-center text-white text-2xl font-semibold">
+            Process Version B (Marek Flavor)
+          </div>
+          <Process />
         </div>
-        <ProcessAlt />
-        <div className="text-center text-white text-2xl font-semibold">
-          Process Version B (Marek Flavor)
-        </div>
-        <Process />
+        <Testimonials />
+        <BookCallSection />
+        <NewsletterSection />
+        <FAQ />
       </div>
-      <Testimonials />
-      <BookCallSection />
-      <NewsletterSection />
-      <FAQ />
     </main>
   );
 }
