@@ -3,10 +3,14 @@ import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm min-h-[3rem] py-1">
+    <div className="navbar min-h-[3rem] py-1 absolute top-0 left-0 right-0 z-50">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost lg:hidden text-white border-none hover:bg-white/10"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -25,24 +29,24 @@ const NavBar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content rounded-box mt-3 w-52 p-2 bg-black/40 backdrop-blur-md shadow-xl"
           >
             <li>
-              <a>Services</a>
+              <a className="text-white hover:bg-white/10">Services</a>
             </li>
             <li>
-              <a>Process</a>
-              <ul className="p-2">
+              <a className="text-white hover:bg-white/10">Process</a>
+              <ul className="p-2 bg-black/40 backdrop-blur-md">
                 <li>
-                  <a>Your Goals</a>
+                  <a className="text-white hover:bg-white/10">Your Goals</a>
                 </li>
                 <li>
-                  <a>Testimonials</a>
+                  <a className="text-white hover:bg-white/10">Testimonials</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Talk to Us</a>
+              <a className="text-white hover:bg-white/10">Talk to Us</a>
             </li>
           </ul>
         </div>
@@ -59,23 +63,25 @@ const NavBar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Services</a>
+            <a className="text-white hover:bg-white/10">Services</a>
           </li>
           <li>
-            <details>
-              <summary>Process</summary>
-              <ul className="p-2">
+            <details className="dropdown">
+              <summary className="text-white hover:bg-white/10">
+                Process
+              </summary>
+              <ul className="p-2 mt-4 bg-black/40 backdrop-blur-md rounded-box menu dropdown-content">
                 <li>
-                  <a>Your Goals</a>
+                  <a className="text-white hover:bg-white/10">Your Goals</a>
                 </li>
                 <li>
-                  <a>Testimonials</a>
+                  <a className="text-white hover:bg-white/10">Testimonials</a>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a>Talk to Us</a>
+            <a className="text-white hover:bg-white/10">Talk to Us</a>
           </li>
         </ul>
       </div>

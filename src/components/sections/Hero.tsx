@@ -13,7 +13,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex flex-col">
+    <section className="relative min-h-screen flex flex-col pt-[112px] md:pt-32">
       {/* Background with gradient */}
       <div
         className="absolute inset-0 bg-gradient-to-br from-black via-black/95 to-red-900/90"
@@ -71,8 +71,8 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="flex-1 flex items-center">
-        <div className="w-full px-4 pt-16 text-center md:text-left md:container md:mx-auto md:pt-32 overflow-x-hidden">
+      <div className="flex-1 flex items-start md:items-center">
+        <div className="w-full px-4 text-center md:text-left md:container md:mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
