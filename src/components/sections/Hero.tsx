@@ -13,7 +13,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex flex-col pt-[112px] md:pt-32">
+    <section className="relative min-h-[60vh] md:min-h-screen flex flex-col pt-[80px] md:pt-32 pb-0 md:pb-0">
       {/* Background with gradient */}
       <div
         className="absolute inset-0 bg-gradient-to-br from-black via-black/95 to-red-900/90"
@@ -71,7 +71,7 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="flex-1 flex items-start md:items-center">
+      <div className="flex flex-col items-start md:items-center h-full">
         <div className="w-full px-4 text-center md:text-left md:container md:mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -121,7 +121,7 @@ export default function Hero() {
               href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-white text-black px-8 py-3 rounded-full text-base md:text-lg text-center hover:bg-gray-100 transition-colors font-medium"
+              className="inline-block bg-white text-black px-8 py-3 rounded-full text-base md:text-lg text-center hover:bg-gray-100 transition-colors font-medium mb-24"
             >
               Start treatment online
             </a>
