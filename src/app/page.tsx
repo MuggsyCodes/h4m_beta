@@ -6,7 +6,7 @@ import { ScrollButtons } from "@/components/sections/ButtonCarousel";
 import Call2Action from "@/components/sections/Call2Action";
 import { CarouselSpacing } from "@/components/sections/OptimizeCard";
 import EducationSection from "@/components/sections/EducationSection";
-import Process from "@/components/Process";
+//import Process from "@/components/Process";
 import ProcessAlt from "@/components/ProcessAlt";
 import Testimonials from "@/components/sections/Testimonials";
 import BookCallSection from "@/components/BookCallSection";

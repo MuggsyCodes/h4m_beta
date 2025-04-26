@@ -8,7 +8,7 @@ export default function Explanatory() {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   return (
-    <section className="bg-black py-16" ref={ref}>
+    <section className="bg-black py-8" ref={ref}>
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto text-center">
           <div className="overflow-hidden">
