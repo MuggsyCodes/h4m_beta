@@ -61,9 +61,9 @@ const Call2Action = () => {
   ];
 
   return (
-    <section className="bg-white rounded-3xl mx-4 md:mx-8 lg:mx-auto max-w-7xl p-8 my-16">
-      <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
-        <div className="relative w-full h-[500px] md:h-[600px]">
+    <section className="bg-white rounded-3xl mx-2 md:mx-8 lg:mx-auto max-w-7xl p-4 md:p-8 my-8 md:my-16">
+      <div className="grid md:grid-cols-2 gap-4 md:gap-8 items-center mb-4 md:mb-8">
+        <div className="relative w-full h-[220px] md:h-[600px]">
           <Image
             src="/call-2-action.webp"
             alt="Doctor consultation on phone"
@@ -73,38 +73,40 @@ const Call2Action = () => {
           />
         </div>
 
-        <div className="space-y-6">
-          <h2 className="text-4xl font-bold text-black">
+        <div className="space-y-3 md:space-y-6">
+          <h2 className="text-2xl md:text-4xl font-bold text-black">
             Invest in your health with Guided Optimization®
           </h2>
 
-          <p className="text-black mb-6">
+          <p className="text-sm md:text-lg text-black mb-3 md:mb-6">
             The first step towards optimizing your health online is to book your
             intake assessment, which includes:
           </p>
 
-          <div className="space-y-4">
+          <div className="space-y-2 md:space-y-4">
             {features.map((feature, index) => (
-              <div key={index} className="flex gap-3">
-                <div className="flex-shrink-0 h-6 w-6 text-green-500">
+              <div key={index} className="flex gap-2 md:gap-3">
+                <div className="flex-shrink-0 h-4 w-4 md:h-6 md:w-6 text-green-500">
                   <svg viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                   </svg>
                 </div>
                 <div>
-                  <span className="font-semibold text-black">
+                  <span className="font-semibold text-black text-xs md:text-base">
                     {feature.text}:
                   </span>{" "}
-                  <span className="text-black">{feature.description}</span>
+                  <span className="text-black text-xs md:text-base">
+                    {feature.description}
+                  </span>
                 </div>
               </div>
             ))}
           </div>
 
-          <div className="mt-8 flex items-center justify-center w-full">
+          <div className="mt-4 md:mt-8 flex items-center justify-center w-full">
             <a
               href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
-              className="bg-[#C84B31] text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-[#A33D28] transition-colors"
+              className="bg-[#C84B31] text-white px-6 py-3 md:px-12 md:py-4 rounded-full text-base md:text-lg font-semibold hover:bg-[#A33D28] transition-colors"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -119,13 +121,13 @@ const Call2Action = () => {
           {bottomItems.map((item, index) => (
             <div key={index} className={styles.item}>
               {item.icon}
-              <span>{item.text}</span>
+              <span className="text-xs md:text-base">{item.text}</span>
             </div>
           ))}
           {bottomItems.map((item, index) => (
             <div key={`duplicate-${index}`} className={styles.item}>
               {item.icon}
-              <span>{item.text}</span>
+              <span className="text-xs md:text-base">{item.text}</span>
             </div>
           ))}
         </div>
