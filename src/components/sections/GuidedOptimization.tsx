@@ -5,10 +5,10 @@ const GuidedOptimization = () => {
     <section className="py-16 bg-black">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl text-white mb-4">
+          <h2 className="text-4xl md:text-5xl text-white mb-4 px-2">
             Why Go Anywhere Else®?
           </h2>
-          <p className="text-lg text-gray-300 mb-8">
+          <p className="text-lg text-gray-300 mb-8 px-2">
             Every Hormones for Me client receives the following:
           </p>
 
