@@ -6,30 +6,28 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-16 px-4 md:px-8 border-t border-gray-800">
+    <footer className="bg-black text-white py-6 md:py-16 px-4 md:px-8 border-t border-gray-800">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-y-8 md:gap-12">
           {/* Contact Info */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6">Contact Info</h3>
+          <div className="text-center md:text-left">
+            <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6">
+              Contact Info
+            </h3>
             <a
               href="mailto:Info@HormonesforMe.com"
-              className="text-blue-400 hover:text-blue-300 transition-colors"
+              className="block text-blue-400 hover:text-blue-300 transition-colors mb-2"
             >
               support@hormonesforme.com
             </a>
-            <div className="mt-4">
-              <a
-                href="tel:1-877-572-2582"
-                className="text-white hover:text-gray-300 transition-colors"
-              >
-                Phone: 1 (813) 563 2565
-              </a>
-            </div>
+            <a
+              href="tel:1-877-572-2582"
+              className="block text-white hover:text-gray-300 transition-colors mb-2"
+            >
+              Phone: 1 (813) 563 2565
+            </a>
             <p className="text-gray-400 mt-4 text-sm">
-              The fastest and most effective
-              <br />
-              way to reach us is via email
+              The fastest and most effective way to reach us is via email
             </p>
             <div className="mt-6">
               <h4 className="font-semibold mb-2">Office hours</h4>
@@ -38,9 +36,11 @@ export default function Footer() {
           </div>
 
           {/* More Info */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6">More Info</h3>
-            <div className="mb-6">
+          <div className="text-center md:text-left">
+            <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6">
+              More Info
+            </h3>
+            <div className="mb-4 md:mb-6">
               <h4 className="font-semibold mb-2">Address</h4>
               <p className="text-gray-400">
                 7901 4th St N, Ste 300
@@ -58,19 +58,21 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-            <div className="mt-8">
+            <div className="mt-6 md:mt-8 mx-auto md:mx-0 w-fit">
               <Image
                 src="/legit-script.webp"
                 alt="LegitScript Certified"
-                width={80}
-                height={80}
+                width={64}
+                height={64}
               />
             </div>
           </div>
 
           {/* Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6">Services</h3>
+          <div className="text-center md:text-left">
+            <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6">
+              Services
+            </h3>
             <ul className="space-y-3">
               <li>
                 <Link
@@ -100,16 +102,18 @@ export default function Footer() {
           </div>
 
           {/* Follow us */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6">Follow us</h3>
-            <div className="flex space-x-4">
+          <div className="text-center md:text-left">
+            <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6">
+              Follow us
+            </h3>
+            <div className="flex justify-center md:justify-start space-x-4">
               <a
                 href="https://instagram.com/hormonesformen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                <Instagram size={48} />
+                <Instagram size={32} className="md:size-12" />
               </a>
               <a
                 href="https://twitter.com/hormonesformen"
@@ -117,7 +121,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                <Twitter size={48} />
+                <Twitter size={32} className="md:size-12" />
               </a>
               <a
                 href="https://youtube.com/hormonesformen"
@@ -125,7 +129,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                <Youtube size={48} />
+                <Youtube size={32} className="md:size-12" />
               </a>
               <a
                 href="https://facebook.com/hormonesformen"
@@ -133,7 +137,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                <Facebook size={48} />
+                <Facebook size={32} className="md:size-12" />
               </a>
               <a
                 href="https://linkedin.com/company/hormonesformen"
@@ -141,7 +145,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                <Linkedin size={48} />
+                <Linkedin size={32} className="md:size-12" />
               </a>
             </div>
           </div>
