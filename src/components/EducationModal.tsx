@@ -9,6 +9,7 @@ export function EducationModal({ trigger }: EducationModalProps) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    zip: "",
     interest: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -35,7 +36,7 @@ export function EducationModal({ trigger }: EducationModalProps) {
       }
 
       // Reset form and close modal on success
-      setFormData({ name: "", email: "", interest: "" });
+      setFormData({ name: "", email: "", zip: "", interest: "" });
       setIsOpen(false);
     } catch (error) {
       console.error("Form submission error:", error);
@@ -63,7 +64,9 @@ export function EducationModal({ trigger }: EducationModalProps) {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-bold">Get Educated</h2>
+              <h2 className="text-2xl font-bold w-full text-center">
+                Get Educated
+              </h2>
               <button
                 onClick={() => setIsOpen(false)}
                 className="text-gray-500 hover:text-gray-700 text-2xl leading-none"
@@ -103,6 +106,23 @@ export function EducationModal({ trigger }: EducationModalProps) {
                   }
                   className="w-full px-3 py-2 border rounded-md"
                   placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div className="space-y-2">
+                <label htmlFor="zip" className="block text-sm font-medium">
+                  Zip Code
+                </label>
+                <input
+                  id="zip"
+                  type="text"
+                  value={formData.zip}
+                  onChange={(e) =>
+                    setFormData({ ...formData, zip: e.target.value })
+                  }
+                  className="w-full px-3 py-2 border rounded-md"
+                  placeholder="Enter your zip code"
                   required
                 />
               </div>

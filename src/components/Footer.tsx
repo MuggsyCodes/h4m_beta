@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-y-8 md:gap-12">
           {/* Contact Info */}
-          <div className="text-center md:text-left">
+          <div className="text-left">
             <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6">
               Contact Info
             </h3>
@@ -31,45 +31,35 @@ export default function Footer() {
             </p>
             <div className="mt-6">
               <h4 className="font-semibold mb-2">Office hours</h4>
-              <p className="text-gray-400">Mon-Fri: 9:00 am – 5:00 pm EST</p>
+              <p className="text-gray-400">Mon-Fri: 10:00 am – 8:00 pm EST</p>
+              <p className="text-gray-400">Sat: 10:00 am – 5:00 pm EST</p>
             </div>
           </div>
 
           {/* More Info */}
-          <div className="text-center md:text-left">
-            <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6">
-              More Info
-            </h3>
-            <div className="mb-4 md:mb-6">
-              <h4 className="font-semibold mb-2">Address</h4>
-              <p className="text-gray-400">
-                7901 4th St N, Ste 300
-                <br />
-                St. Petersburg, FL 33702, US
-              </p>
-            </div>
-            <ul className="space-y-3">
-              <li>
-                <Link
-                  href="/refund-policy"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Cancellation & Refund Policy
-                </Link>
-              </li>
-            </ul>
-            <div className="mt-6 md:mt-8 mx-auto md:mx-0 w-fit">
-              <Image
-                src="/legit-script.webp"
-                alt="LegitScript Certified"
-                width={64}
-                height={64}
-              />
+          <div className="md:text-left">
+            <div className="flex flex-row items-center justify-between gap-4 mt-6 md:mt-8">
+              <div className="flex-1 text-xs text-gray-400">
+                <div className="font-semibold mb-1">Address</div>
+                <div>
+                  7901 4th St N, Ste 300
+                  <br />
+                  St. Petersburg, FL 33702, US
+                </div>
+              </div>
+              <div className="flex-1 flex justify-center items-center">
+                <Image
+                  src="/legit-script.webp"
+                  alt="LegitScript Certified"
+                  width={48}
+                  height={48}
+                />
+              </div>
             </div>
           </div>
 
           {/* Services */}
-          <div className="text-center md:text-left">
+          <div className="text-left">
             <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6">
               Services
             </h3>
@@ -102,11 +92,11 @@ export default function Footer() {
           </div>
 
           {/* Follow us */}
-          <div className="text-center md:text-left">
+          <div className="text-left">
             <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6">
               Follow us
             </h3>
-            <div className="flex justify-center md:justify-start space-x-4">
+            <div className="flex justify-start space-x-4">
               <a
                 href="https://instagram.com/hormonesformen"
                 target="_blank"
