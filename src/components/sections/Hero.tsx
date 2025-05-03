@@ -121,9 +121,9 @@ export default function Hero() {
               href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-white text-black px-8 py-3 rounded-full text-base md:text-lg text-center hover:bg-gray-100 transition-colors font-medium mb-24"
+              className="inline-block bg-transparent border-2 border-white text-white px-8 py-3 rounded-full text-base md:text-lg text-center hover:bg-white hover:text-black transition-colors font-medium mb-24"
             >
-              Start treatment online
+              Start treatment
             </a>
           </motion.div>
         </div>
