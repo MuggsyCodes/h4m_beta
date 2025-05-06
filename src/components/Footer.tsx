@@ -104,6 +104,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Instagram size={32} className="md:size-12" />
+                <span className="sr-only">Instagram</span>
               </a>
               <a
                 href="https://twitter.com/hormonesformen"
@@ -112,6 +113,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Twitter size={32} className="md:size-12" />
+                <span className="sr-only">Twitter</span>
               </a>
               <a
                 href="https://youtube.com/hormonesformen"
@@ -120,6 +122,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Youtube size={32} className="md:size-12" />
+                <span className="sr-only">YouTube</span>
               </a>
               <a
                 href="https://facebook.com/hormonesformen"
@@ -128,6 +131,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Facebook size={32} className="md:size-12" />
+                <span className="sr-only">Facebook</span>
               </a>
               <a
                 href="https://linkedin.com/company/hormonesformen"
@@ -136,6 +140,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Linkedin size={32} className="md:size-12" />
+                <span className="sr-only">LinkedIn</span>
               </a>
             </div>
           </div>

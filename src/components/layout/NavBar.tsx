@@ -32,21 +32,24 @@ const NavBar = () => {
             className="menu menu-sm dropdown-content rounded-box mt-3 w-52 p-2 bg-black/40 backdrop-blur-md shadow-xl"
           >
             <li>
-              <a className="text-white hover:bg-white/10">Services</a>
+              <a className="text-white hover:bg-white/10">Get Educated</a>
             </li>
             <li>
-              <a className="text-white hover:bg-white/10">Process</a>
-              <ul className="p-2 bg-black/40 backdrop-blur-md">
-                <li>
-                  <a className="text-white hover:bg-white/10">Your Goals</a>
-                </li>
-                <li>
-                  <a className="text-white hover:bg-white/10">Testimonials</a>
-                </li>
-              </ul>
+              <a className="text-white hover:bg-white/10">
+                Guided Optimization
+              </a>
             </li>
             <li>
-              <a className="text-white hover:bg-white/10">Talk to Us</a>
+              <a className="text-white hover:bg-white/10">Our Process</a>
+            </li>
+            <li>
+              <a className="text-white hover:bg-white/10">Book a Call</a>
+            </li>
+            <li>
+              <a className="text-white hover:bg-white/10">Testimonials</a>
+            </li>
+            <li>
+              <a className="text-white hover:bg-white/10">FAQs</a>
             </li>
           </ul>
         </div>
