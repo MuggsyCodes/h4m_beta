@@ -4,7 +4,11 @@ import { EducationModal } from "@/components/EducationModal";
 
 export default function EducationSection() {
   return (
-    <section className="bg-black py-1 md:py-">
+    <section
+      id="education"
+      className="bg-black py-1 md:py-"
+      style={{ scrollMarginTop: "90px" }}
+    >
       <div className="container mx-auto px-4 text-center">
         <EducationModal
           trigger={

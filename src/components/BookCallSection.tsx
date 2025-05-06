@@ -4,7 +4,11 @@ import Image from "next/image";
 
 export default function BookCallSection() {
   return (
-    <section className="bg-black text-white py-8 px-4">
+    <section
+      id="book-call"
+      className="bg-black text-white py-8 px-4"
+      style={{ scrollMarginTop: "90px" }}
+    >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="max-w-xl mb-0 md:mb-0">
           <h2 className="text-4xl font-semibold mb-4">

@@ -59,7 +59,11 @@ export default function ProcessAlt() {
   const [activeStep, setActiveStep] = useState<number | null>(1);
 
   return (
-    <section className="bg-black text-white py-16 px-4 md:px-8">
+    <section
+      id="process"
+      className="bg-black text-white py-16 px-4 md:px-8"
+      style={{ scrollMarginTop: "90px" }}
+    >
       <div className="max-w-6xl mx-auto">
         {/* Mobile Header */}
         <div className="md:hidden text-center mb-12">

@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import { smoothScrollTo } from "@/utils/smoothScrollTo";
 
 const NavBar = () => {
   return (
@@ -32,24 +35,76 @@ const NavBar = () => {
             className="menu menu-sm dropdown-content rounded-box mt-3 w-52 p-2 bg-black/40 backdrop-blur-md shadow-xl"
           >
             <li>
-              <a className="text-white hover:bg-white/10">Get Educated</a>
+              <a
+                href="#education"
+                className="text-white hover:bg-white/10"
+                onClick={(e) => {
+                  e.preventDefault();
+                  smoothScrollTo("education");
+                }}
+              >
+                Get Educated
+              </a>
             </li>
             <li>
-              <a className="text-white hover:bg-white/10">
+              <a
+                href="#guided-optimization"
+                className="text-white hover:bg-white/10"
+                onClick={(e) => {
+                  e.preventDefault();
+                  smoothScrollTo("guided-optimization");
+                }}
+              >
                 Guided Optimization
               </a>
             </li>
             <li>
-              <a className="text-white hover:bg-white/10">Our Process</a>
+              <a
+                href="#process"
+                className="text-white hover:bg-white/10"
+                onClick={(e) => {
+                  e.preventDefault();
+                  smoothScrollTo("process");
+                }}
+              >
+                Our Process
+              </a>
             </li>
             <li>
-              <a className="text-white hover:bg-white/10">Book a Call</a>
+              <a
+                href="#book-call"
+                className="text-white hover:bg-white/10"
+                onClick={(e) => {
+                  e.preventDefault();
+                  smoothScrollTo("book-call");
+                }}
+              >
+                Book a Call
+              </a>
             </li>
             <li>
-              <a className="text-white hover:bg-white/10">Testimonials</a>
+              <a
+                href="#testimonials"
+                className="text-white hover:bg-white/10"
+                onClick={(e) => {
+                  e.preventDefault();
+                  smoothScrollTo("testimonials");
+                }}
+              >
+                Testimonials
+              </a>
             </li>
             <li>
-              <a className="text-white hover:bg-white/10">FAQs</a>
+              <a
+                href="#faq"
+                className="text-white hover:bg-white/10"
+                onClick={(e) => {
+                  e.preventDefault();
+                  smoothScrollTo("faq");
+                }}
+              >
+                FAQs
+              </a>
             </li>
           </ul>
         </div>

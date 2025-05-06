@@ -40,7 +40,11 @@ export default function FAQ() {
   };
 
   return (
-    <section className="w-full mx-auto px-4 py-6 md:py-16 flex flex-col items-center">
+    <section
+      id="faq"
+      className="w-full mx-auto px-4 py-6 md:py-16 flex flex-col items-center"
+      style={{ scrollMarginTop: "90px" }}
+    >
       <div className="text-center mb-4 md:mb-12">
         <h2 className="text-lg md:text-3xl font-bold mb-1 md:mb-4 text-white">
           Frequently Asked Questions

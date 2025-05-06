@@ -2,7 +2,11 @@ import React from "react";
 
 const GuidedOptimization = () => {
   return (
-    <section className="py-16 bg-black">
+    <section
+      id="guided-optimization"
+      className="py-16 bg-black"
+      style={{ scrollMarginTop: "90px" }}
+    >
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl text-white mb-4 px-2">

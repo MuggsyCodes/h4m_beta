@@ -98,7 +98,11 @@ export default function Testimonials() {
   );
 
   return (
-    <section className="bg-black text-white py-16 px-4 md:px-8">
+    <section
+      id="testimonials"
+      className="bg-black text-white py-16 px-4 md:px-8"
+      style={{ scrollMarginTop: "90px" }}
+    >
       <div className="max-w-6xl mx-auto">
         <div className="w-full md:max-w-[50%] mb-12 text-center md:text-left">
           <h2 className="text-3xl font-bold mb-4">
