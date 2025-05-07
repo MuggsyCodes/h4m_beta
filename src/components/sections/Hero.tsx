@@ -13,7 +13,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-[60vh] md:min-h-screen flex flex-col pt-[80px] md:pt-32 pb-0 md:pb-0">
+    <section className="relative min-h-[60vh] md:min-h-[70vh] flex flex-col pt-[80px] md:pt-20 pb-0 md:pb-0">
       {/* Background with gradient */}
       <div
         className="absolute inset-0 bg-gradient-to-br from-black via-black/95 to-red-900/90"
@@ -120,7 +120,7 @@ export default function Hero() {
               href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg md:text-xl text-center hover:bg-white hover:text-black transition-colors font-medium mb-24"
+              className="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg md:text-xl text-center hover:bg-white hover:text-black transition-colors font-medium mb-10"
             >
               Start today
             </a>

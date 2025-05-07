@@ -6,7 +6,7 @@ export default function EducationSection() {
   return (
     <section
       id="education"
-      className="bg-black py-1 md:py-"
+      className="bg-black pt-6 md:pt-4"
       style={{ scrollMarginTop: "90px" }}
     >
       <div className="container mx-auto px-4 text-center">

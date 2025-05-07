@@ -92,8 +92,8 @@ export function EducationModal({ trigger }: EducationModalProps) {
               <div className="text-center py-8">
                 <div className="text-green-500 text-5xl mb-4">✓</div>
                 <p className="text-lg text-gray-700">
-                  Thanks for reaching out! You'll hear from one of our Customer
-                  Care Specialists soon.
+                  Thanks for reaching out! You&aposll hear from one of our
+                  Customer Care Specialists soon.
                 </p>
               </div>
             ) : (
