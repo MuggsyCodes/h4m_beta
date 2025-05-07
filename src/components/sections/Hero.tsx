@@ -79,11 +79,9 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="max-w-[600px] mx-auto md:mx-0 relative"
           >
-            <h1 className="text-4xl sm:text-5xl md:text-6xl text-white mb-6 md:mb-8 tracking-tight break-words leading-tight">
-              BREAK THE RULES -
-              <br />
+            <h1 className="text-4xl sm:text-5xl md:text-6xl text-white mb-6 md:mb-8 tracking-tight break-words leading-tight text-center md:text-left">
+              BREAK THE RULES - <wbr />
               OWN YOUR HEALTH
-              <br />
             </h1>
             <p className="text-xl sm:text-2xl md:text-3xl text-white mb-8 md:mb-10 leading-relaxed">
               Why go anywhere else? <sup>®</sup>
