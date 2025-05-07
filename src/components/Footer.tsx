@@ -26,9 +26,7 @@ export default function Footer() {
             >
               Phone: 1 (813) 563 2565
             </a>
-            <p className="text-gray-400 mt-4 text-sm">
-              The fastest and most effective way to reach us is via email
-            </p>
+
             <div className="mt-6">
               <h4 className="font-semibold mb-2">Office hours</h4>
               <p className="text-gray-400">Mon-Fri: 10:00 am – 8:00 pm EST</p>

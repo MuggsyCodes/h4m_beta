@@ -79,19 +79,18 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="max-w-[600px] mx-auto md:mx-0 relative"
           >
-            <h1 className="text-4xl md:text-6xl text-white font-bold mb-4 md:mb-6 tracking-tight break-words">
-              TAKE CHARGE OF
+            <h1 className="text-4xl sm:text-5xl md:text-6xl text-white mb-6 md:mb-8 tracking-tight break-words leading-tight">
+              BREAK THE RULES -
               <br />
-              YOUR HEALTH WITH
+              OWN YOUR HEALTH
               <br />
-              GUIDED OPTIMIZATION<sup>®</sup>
             </h1>
-            <p className="text-base md:text-xl text-white mb-6 md:mb-8">
-              Personalized hormone optimization and treatments
-              <br className="hidden md:block" /> from the comfort of your home.
+            <p className="text-xl sm:text-2xl md:text-3xl text-white mb-8 md:mb-10 leading-relaxed">
+              Why go anywhere else? <sup>®</sup>
+              <br className="hidden md:block" />
             </p>
 
-            <ul className="space-y-3 md:space-y-4 mb-6 md:mb-8">
+            <ul className="space-y-4 md:space-y-5 mb-8 md:mb-10">
               {[
                 "Personalized lab testing",
                 "1 on 1 expert health coaching",
@@ -102,7 +101,7 @@ export default function Hero() {
                   className="flex items-center text-white justify-center md:justify-start"
                 >
                   <svg
-                    className="w-4 h-4 md:w-5 md:h-5 mr-2 md:mr-3 text-red-500 flex-shrink-0"
+                    className="w-5 h-5 md:w-6 md:h-6 mr-3 md:mr-4 text-red-500 flex-shrink-0"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -112,7 +111,7 @@ export default function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-base md:text-lg">{item}</span>
+                  <span className="text-lg md:text-xl">{item}</span>
                 </li>
               ))}
             </ul>
@@ -121,9 +120,9 @@ export default function Hero() {
               href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-transparent border-2 border-white text-white px-8 py-3 rounded-full text-base md:text-lg text-center hover:bg-white hover:text-black transition-colors font-medium mb-24"
+              className="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg md:text-xl text-center hover:bg-white hover:text-black transition-colors font-medium mb-24"
             >
-              Start treatment
+              Start today
             </a>
           </motion.div>
         </div>

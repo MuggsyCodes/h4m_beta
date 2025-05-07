@@ -7,7 +7,7 @@ import { smoothScrollTo } from "@/utils/smoothScrollTo";
 const NavBar = () => {
   return (
     <div className="navbar min-h-[3rem] py-1 absolute top-0 left-0 right-0 z-50">
-      <div className="navbar-start flex-1 justify-center lg:justify-start">
+      <div className="navbar-start flex-1 justify-center lg:justify-start flex items-center">
         <div className="dropdown">
           <div
             tabIndex={0}
@@ -117,6 +117,81 @@ const NavBar = () => {
             priority
           />
         </div>
+        {/* Desktop menu */}
+        <ul className="hidden lg:flex space-x-8 ml-8">
+          <li>
+            <a
+              href="#education"
+              className="text-white hover:underline"
+              onClick={(e) => {
+                e.preventDefault();
+                smoothScrollTo("education");
+              }}
+            >
+              Get Educated
+            </a>
+          </li>
+          <li>
+            <a
+              href="#guided-optimization"
+              className="text-white hover:underline"
+              onClick={(e) => {
+                e.preventDefault();
+                smoothScrollTo("guided-optimization");
+              }}
+            >
+              Guided Optimization
+            </a>
+          </li>
+          <li>
+            <a
+              href="#process"
+              className="text-white hover:underline"
+              onClick={(e) => {
+                e.preventDefault();
+                smoothScrollTo("process");
+              }}
+            >
+              Our Process
+            </a>
+          </li>
+          <li>
+            <a
+              href="#book-call"
+              className="text-white hover:underline"
+              onClick={(e) => {
+                e.preventDefault();
+                smoothScrollTo("book-call");
+              }}
+            >
+              Book a Call
+            </a>
+          </li>
+          <li>
+            <a
+              href="#testimonials"
+              className="text-white hover:underline"
+              onClick={(e) => {
+                e.preventDefault();
+                smoothScrollTo("testimonials");
+              }}
+            >
+              Testimonials
+            </a>
+          </li>
+          <li>
+            <a
+              href="#faq"
+              className="text-white hover:underline"
+              onClick={(e) => {
+                e.preventDefault();
+                smoothScrollTo("faq");
+              }}
+            >
+              FAQs
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );
