@@ -97,10 +97,10 @@ export default function Hero() {
               ].map((item) => (
                 <li
                   key={item}
-                  className="flex items-center text-white justify-center md:justify-start"
+                  className="flex items-start text-white justify-start text-left"
                 >
                   <svg
-                    className="w-5 h-5 md:w-6 md:h-6 mr-3 md:mr-4 text-red-500 flex-shrink-0"
+                    className="w-5 h-5 md:w-6 md:h-6 mr-3 md:mr-4 text-red-500 flex-shrink-0 mt-1"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -110,7 +110,9 @@ export default function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-lg md:text-xl">{item}</span>
+                  <span className="text-lg md:text-xl leading-snug">
+                    {item}
+                  </span>
                 </li>
               ))}
             </ul>
