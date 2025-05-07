@@ -90,9 +90,10 @@ export default function Hero() {
 
             <ul className="space-y-4 md:space-y-5 mb-8 md:mb-10">
               {[
-                "Personalized lab testing",
-                "1 on 1 expert health coaching",
-                "Supplements & prescriptions",
+                "Get a Health Maverick in Your Corner",
+                "Know Your Lab Numbers, Own your Edge",
+                "Decode Your DNA, Unleash Your Potential.",
+                "Upgrade Your Supplment Stack — No Filler, Just Fire",
               ].map((item) => (
                 <li
                   key={item}

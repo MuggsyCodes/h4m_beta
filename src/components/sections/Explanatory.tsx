@@ -21,7 +21,7 @@ export default function Explanatory() {
                 ease: [0.16, 1, 0.3, 1], // custom ease curve for a 'pop' effect
               }}
             >
-              Let&apos;s face it, traditional healthcare is{" "}
+              Let&apos;s be real - healthcare is stuck in the past.{" "}
               <motion.span
                 className="text-red-500 inline-block"
                 initial={{ scale: 0.5, opacity: 0 }}
@@ -38,10 +38,9 @@ export default function Explanatory() {
                   damping: 10,
                 }}
               >
-                broken
+                You&apos;re not.
               </motion.span>
-              . You deserve better than stubborn insurance companies, overworked
-              physicians, and outdated treatment guidelines.
+              You deserve a smarter way to thrive.
             </motion.h2>
           </div>
 
@@ -55,7 +54,7 @@ export default function Explanatory() {
               ease: "easeOut",
             }}
           >
-            You deserve Guided Optimization®
+            Break the rules - own your health.
           </motion.p>
         </div>
       </div>
