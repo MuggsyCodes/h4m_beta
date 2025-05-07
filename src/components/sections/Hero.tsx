@@ -77,7 +77,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-[600px] mx-auto md:mx-0 relative"
+            className="max-w-[600px] mx-auto md:mx-0 md:ml-32 relative"
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl text-white mb-6 md:mb-8 tracking-tight break-words leading-tight text-center md:text-left">
               BREAK THE RULES - <wbr />

@@ -108,7 +108,7 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <div className="relative h-16 w-40 mx-auto">
+        <div className="relative h-16 w-40 mx-auto lg:h-24 lg:w-60">
           <Image
             src="/HfM-logo.png"
             alt="H4M Logo"
@@ -118,7 +118,7 @@ const NavBar = () => {
           />
         </div>
         {/* Desktop menu */}
-        <ul className="hidden lg:flex space-x-8 ml-8">
+        <ul className="hidden lg:flex space-x-8 ml-8 pr-36">
           <li>
             <a
               href="#education"
