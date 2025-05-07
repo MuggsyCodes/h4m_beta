@@ -23,7 +23,7 @@ export default function Home() {
         <Explanatory />
         <GuidedOptimization />
         {/* <FeaturedOn /> */}
-        <Call2Action />
+        {/* <Call2Action /> */}
         <CarouselSpacing />
         <div className="flex flex-col gap-4">
           {/*

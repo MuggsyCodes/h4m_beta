@@ -83,7 +83,7 @@ export default function Hero() {
               BREAK THE RULES - <wbr />
               OWN YOUR HEALTH
             </h1>
-            <p className="text-xl sm:text-2xl md:text-3xl text-white mb-8 md:mb-10 leading-relaxed">
+            <p className="text-2xl sm:text-2xl md:text-4xl text-white mb-8 md:mb-10 leading-relaxed">
               Why go anywhere else? <sup>®</sup>
               <br className="hidden md:block" />
             </p>
