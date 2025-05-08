@@ -7,7 +7,7 @@ import { ScrollButtons } from "@/components/sections/ButtonCarousel";
 import { CarouselSpacing } from "@/components/sections/OptimizeCard";
 import EducationSection from "@/components/sections/EducationSection";
 //import Process from "@/components/Process";
-import ProcessAlt from "@/components/ProcessAlt";
+// import ProcessAlt from "@/components/ProcessAlt";
 import Testimonials from "@/components/sections/Testimonials";
 import BookCallSection from "@/components/BookCallSection";
 import NewsletterSection from "@/components/NewsletterSection";
@@ -31,7 +31,7 @@ export default function Home() {
             Process Version A (Currnt H4M)
           </div>
           */}
-          <ProcessAlt />
+          {/* <ProcessAlt /> */}
           {/* <div className="text-center text-white text-2xl font-semibold">
             Process Version B (Marek Flavor)
           </div>

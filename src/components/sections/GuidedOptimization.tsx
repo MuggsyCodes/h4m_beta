@@ -12,7 +12,7 @@ const GuidedOptimization = () => {
           <h2 className="text-4xl md:text-5xl text-white mb-4 px-2">
             Break the Mold. Upgrade your Health.
           </h2>
-          <p className="text-lg text-gray-300 mb-8 px-2">
+          <p className="text-2xl text-gray-300 mb-8 px-2">
             Ready to ditch the old playbook? <br />
             Your first move: book your H4M intake and unlock a new level of
             health.
