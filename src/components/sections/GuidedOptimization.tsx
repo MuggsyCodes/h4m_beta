@@ -27,7 +27,7 @@ const GuidedOptimization = () => {
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
-                  <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z" />
+                  <path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z" />
                 </svg>
               </div>
               <h3 className="text-xl text-white mb-2">Kickstart Quiz</h3>
@@ -39,14 +39,14 @@ const GuidedOptimization = () => {
               </p>
             </div>
             {/* Health Coaching Card */}
-            <div className="group relative bg-black/30 rounded-2xl p-6 border border-gray-800 transition-all duration-300 hover:shadow-[0_0_45px_rgba(34,197,94,0.57)] flex flex-col">
-              <div className="w-14 h-14 rounded-full bg-green-500/20 flex items-center justify-center mb-4">
+            <div className="group relative bg-black/30 rounded-2xl p-6 border border-gray-800 transition-all duration-300 hover:shadow-[0_0_45px_rgba(234,179,8,0.57)] flex flex-col">
+              <div className="w-14 h-14 rounded-full bg-yellow-500/20 flex items-center justify-center mb-4">
                 <svg
-                  className="w-7 h-7 text-green-400"
+                  className="w-7 h-7 text-yellow-400"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
-                  <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z" />
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" />
                 </svg>
               </div>
               <h3 className="text-xl text-white mb-2">Kickoff Session</h3>
@@ -81,7 +81,7 @@ const GuidedOptimization = () => {
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
-                  <path d="M20 6h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM10 4h4v2h-4V4zm6 11h-3v3h-2v-3H8v-2h3V9h2v4h3v2z" />
+                  <path d="M15 5c-.46 0-.87.27-1.05.69l-3.88 8.97c-.27.63.2 1.34.89 1.34.39 0 .74-.24.89-.6l.52-1.26h5l.52 1.26c.15.36.5.6.89.6.69 0 1.15-.71.88-1.34l-3.88-8.97C15.87 5.27 15.46 5 15 5zm-1.87 7L15 6.81 16.87 12h-3.74zm-6.78 7.64l1.79-1.79c.32-.31.1-.85-.35-.85H5V5c0-.55-.45-1-1-1s-1 .45-1 1v12h2.79c.45 0 .67.54.35.85l-1.79 1.79c-.2.2-.51.2-.71 0l-1.79-1.79c-.32-.31-.1-.85.35-.85H3V5c0-1.1.9-2 2-2s2 .9 2 2v12h-1.79c-.45 0-.67.54-.35.85l1.79 1.79c.2.2.51.2.71 0z" />
                 </svg>
               </div>
               <h3 className="text-xl text-white mb-2">Expert Gameplan</h3>
@@ -91,14 +91,14 @@ const GuidedOptimization = () => {
               </p>
             </div>
             {/* Health Coaching Card */}
-            <div className="group relative bg-black/30 rounded-2xl p-6 border border-gray-800 transition-all duration-300 hover:shadow-[0_0_45px_rgba(34,197,94,0.57)] flex flex-col">
-              <div className="w-14 h-14 rounded-full bg-green-500/20 flex items-center justify-center mb-4">
+            <div className="group relative bg-black/30 rounded-2xl p-6 border border-gray-800 transition-all duration-300 hover:shadow-[0_0_45px_rgba(168,85,247,0.57)] flex flex-col">
+              <div className="w-14 h-14 rounded-full bg-purple-500/20 flex items-center justify-center mb-4">
                 <svg
-                  className="w-7 h-7 text-green-400"
+                  className="w-7 h-7 text-purple-400"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
-                  <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z" />
+                  <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
                 </svg>
               </div>
               <h3 className="text-xl text-white mb-2">
@@ -117,10 +117,10 @@ const GuidedOptimization = () => {
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
-                  <path d="M20 6h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM10 4h4v2h-4V4zm6 11h-3v3h-2v-3H8v-2h3V9h2v4h3v2z" />
+                  <path d="M8 5v14l11-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl text-white mb-2">Begin Kickstart Quiz!</h3>
+              <h3 className="text-xl text-white mb-2">Begin Kickstart Quiz</h3>
               <p className="text-sm text-gray-400">
                 <a
                   href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
