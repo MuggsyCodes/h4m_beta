@@ -9,16 +9,19 @@ import {
 } from "@/components/ui/carousel";
 
 const cardContent = [
-  { title: "Optimize your testosterone", image: "goal-image-1.webp" },
-  { title: "Hair loss prevention", image: "goal-image-2.webp" },
-  { title: "Improve weight loss", image: "goal-image-3.webp" },
-  { title: "Remove brain fog", image: "goal-image-4.webp" },
-  { title: "Better sleep", image: "goal-image-5.webp" },
-  { title: "Improve Libido", image: "goal-image-6.webp" },
-  { title: "Improve strength", image: "goal-image-7.webp" },
-  { title: "Better heart health", image: "goal-image-8.webp" },
-  { title: "Fertility", image: "goal-image-9.webp" },
-  { title: "Look younger", image: "goal-image-10.webp" },
+  { title: "Unleash Your Alpha Male", image: "goal-image-1.webp" },
+  { title: "Keep Your Mane Legendary", image: "goal-image-2.webp" },
+  { title: "Burn Fat. Break Limits.", image: "goal-image-3.webp" },
+  { title: "Ignite Mental Clarity", image: "goal-image-4.webp" },
+  { title: "Crash Hard. Wake Up Unstoppable.", image: "goal-image-5.webp" },
+  {
+    title: "Turn Up the Heat - Anytime, Anywhere.",
+    image: "goal-image-6.webp",
+  },
+  { title: "Crush Limits. Build Power.", image: "goal-image-7.webp" },
+  { title: "Build Your Aerobic Engine", image: "goal-image-8.webp" },
+  { title: "Boost Your Legacy", image: "goal-image-9.webp" },
+  { title: "Defy Time", image: "goal-image-10.webp" },
 ];
 
 export function CarouselSpacing() {
