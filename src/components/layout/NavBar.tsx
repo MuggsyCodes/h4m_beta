@@ -43,7 +43,7 @@ const NavBar = () => {
                   smoothScrollTo("education");
                 }}
               >
-                Get Educated
+                Members Only
               </a>
             </li>
             <li>
@@ -55,7 +55,7 @@ const NavBar = () => {
                   smoothScrollTo("guided-optimization");
                 }}
               >
-                Guided Optimization
+                The Upgrade
               </a>
             </li>
             <li>
@@ -67,7 +67,7 @@ const NavBar = () => {
                   smoothScrollTo("process");
                 }}
               >
-                Our Process
+                How it Works
               </a>
             </li>
             <li>
@@ -79,7 +79,7 @@ const NavBar = () => {
                   smoothScrollTo("book-call");
                 }}
               >
-                Book a Call
+                Why Settle?
               </a>
             </li>
             <li>
@@ -91,7 +91,7 @@ const NavBar = () => {
                   smoothScrollTo("testimonials");
                 }}
               >
-                Testimonials
+                Hype Stories
               </a>
             </li>
             <li>
@@ -103,7 +103,7 @@ const NavBar = () => {
                   smoothScrollTo("faq");
                 }}
               >
-                FAQs
+                WTF? (FAQs)
               </a>
             </li>
           </ul>
@@ -128,7 +128,7 @@ const NavBar = () => {
                 smoothScrollTo("education");
               }}
             >
-              Get Educated
+              Current Clients
             </a>
           </li>
           <li>
@@ -140,7 +140,7 @@ const NavBar = () => {
                 smoothScrollTo("guided-optimization");
               }}
             >
-              Guided Optimization
+              The Upgrade
             </a>
           </li>
           <li>
@@ -152,7 +152,7 @@ const NavBar = () => {
                 smoothScrollTo("process");
               }}
             >
-              Our Process
+              How it Works
             </a>
           </li>
           <li>
@@ -164,7 +164,7 @@ const NavBar = () => {
                 smoothScrollTo("book-call");
               }}
             >
-              Book a Call
+              Why Settle?
             </a>
           </li>
           <li>
@@ -176,7 +176,7 @@ const NavBar = () => {
                 smoothScrollTo("testimonials");
               }}
             >
-              Testimonials
+              Hype Stories
             </a>
           </li>
           <li>
@@ -188,7 +188,7 @@ const NavBar = () => {
                 smoothScrollTo("faq");
               }}
             >
-              FAQs
+              WTF? (FAQs)
             </a>
           </li>
         </ul>
