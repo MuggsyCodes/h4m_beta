@@ -1,6 +1,7 @@
 import Hero from "@/components/sections/Hero";
 import Explanatory from "@/components/sections/Explanatory";
-import GuidedOptimization from "@/components/sections/GuidedOptimization";
+// import GuidedOptimization from "@/components/sections/GuidedOptimization";
+import H4MProcessSteps from "@/components/ProcessOption";
 //import FeaturedOn from "@/components/sections/FeaturedOn";
 import { ScrollButtons } from "@/components/sections/ButtonCarousel";
 // import Call2Action from "@/components/sections/Call2Action";
@@ -12,7 +13,7 @@ import Testimonials from "@/components/sections/Testimonials";
 import BookCallSection from "@/components/BookCallSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import FAQ from "@/components/FAQ";
-
+import ImageTestimonials from "@/components/sections/ImageTestimonials";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black w-full overflow-x-hidden">
@@ -21,7 +22,8 @@ export default function Home() {
         <EducationSection />
         <ScrollButtons />
         <Explanatory />
-        <GuidedOptimization />
+        <H4MProcessSteps />
+        {/* <GuidedOptimization /> */}
         {/* <FeaturedOn /> */}
         {/* <Call2Action /> */}
         <CarouselSpacing />
@@ -37,6 +39,7 @@ export default function Home() {
           </div>
           <Process /> */}
         </div>
+        <ImageTestimonials />
         <Testimonials />
         <BookCallSection />
         <NewsletterSection />
