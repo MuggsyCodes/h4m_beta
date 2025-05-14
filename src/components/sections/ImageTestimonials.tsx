@@ -30,17 +30,17 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Alexander D.",
-    role: "Gettin' it Done Dude",
+    name: "Leo",
+    role: "Proud New Dad",
     image:
-      "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100",
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100",
     quote:
-      "Thank you so much!! Every time I have to schedule a call or anything I can't ever get over how quick and easy it is with you guys!! I scheduled it for same day! Which is amazing! This truly is the best clinic out there!",
+      "Hey Ryan, happy to say the wife saw two lines on the pregnancy strip. Thanks for your fertility protocol! I'll be sure to let the forums know when i see questions that hormones for me knows what they are doing!",
     rating: 5,
   },
   {
     id: 4,
-    name: "Michael Rodriguez",
+    name: "Michael R.",
     role: "9-5 Warrior",
     image:
       "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100",
@@ -66,6 +66,36 @@ const testimonials = [
       "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100",
     quote:
       "Good morning Ryan - Hey bro! Just wanted to let you know that your staff (Melissa) has been super helpful  and attentive!  You made a good choice with her!  Like I said just thought you should know. Thanks again for all your (and staff’s)  help making me the best me I can be!!! #optimal - Martin Tate",
+    rating: 5,
+  },
+  {
+    id: 7,
+    name: "Steve A.",
+    role: "Full Time Family Man",
+    image:
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100",
+    quote:
+      "Your customer service makes it very easy to recommend you! Thank you both so much! I want you to know that you recommend me to try hcg to bump up my estrogen a little for my joint pain. I’ve only had 2 doses of hcg 250iu. I’ve already had about a 50% decrease in joint pain! I’m so happy. I’ll bump up the dose a little next time but I’m obviously heading in the right direction. I appreciate your expertise so much!",
+    rating: 5,
+  },
+  {
+    id: 8,
+    name: "Alexander D.",
+    role: "Gettin' it Done Dude",
+    image:
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100",
+    quote:
+      "Thank you so much!! Every time I have to schedule a call or anything I can't ever get over how quick and easy it is with you guys!! I scheduled it for same day! Which is amazing! This truly is the best clinic out there!",
+    rating: 5,
+  },
+  {
+    id: 9,
+    name: "Dixianea",
+    role: "Super Mom",
+    image:
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100",
+    quote:
+      "This is the best TRT clinic in the USA. Ryan has so much great information and very knowledgeable. I am 50 years old. Feel like I am 25 again. Thanks",
     rating: 5,
   },
 ];
@@ -136,8 +166,8 @@ export default function ImageTestimonials() {
           </h2>
           <div className="w-20 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-lg text-gray-400">
-            Don'&apos;'t just take our word for it. Here'&apos;'s what our
-            clients have to say about their experience working with us.
+            Don&apos;t just take our word for it. Here&apos;s what our clients
+            have to say about their experience working with us.
           </p>
         </div>
 
