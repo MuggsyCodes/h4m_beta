@@ -15,7 +15,7 @@ const testimonials = [
     image:
       "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=100",
     quote:
-      "Working with Ryan has been incredibly easy and enjoyable. Unlike any medical provider I'&apos've experienced in my 58 years, he makes me feel like I'&apos'm an integral part of my own medical team. He respects the empirical data that I have collected about my body, on my journey, and accepts it as accurate and not subservient to his assumptions. He trusts me to provide him with truthful and unbiased information and he responds with a wealth of experiential solutions to promote better health.  Thank you, Ryan, for all the years you have spent learning and listening and providing the most professional, scientific advice. My life is better as a result of it.",
+      "Working with Ryan has been incredibly easy and enjoyable. Unlike any medical provider I've experienced in my 58 years, he makes me feel like I'm an integral part of my own medical team. He respects the empirical data that I have collected about my body, on my journey, and accepts it as accurate and not subservient to his assumptions. He trusts me to provide him with truthful and unbiased information and he responds with a wealth of experiential solutions to promote better health.  Thank you, Ryan, for all the years you have spent learning and listening and providing the most professional, scientific advice. My life is better as a result of it.",
     rating: 5,
   },
   {
@@ -35,7 +35,7 @@ const testimonials = [
     image:
       "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100",
     quote:
-      "Thank you so much!! Every time I have to schedule a call or anything I can'&apos't ever get over how quick and easy it is with you guys!! I scheduled it for same day! Which is amazing! This truly is the best clinic out there!",
+      "Thank you so much!! Every time I have to schedule a call or anything I can't ever get over how quick and easy it is with you guys!! I scheduled it for same day! Which is amazing! This truly is the best clinic out there!",
     rating: 5,
   },
   {
@@ -55,7 +55,17 @@ const testimonials = [
     image:
       "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100",
     quote:
-      "You've taken care of my health conditions this year to the fullest extent you could.  I have been so miserable these past 15+ years and i always knew something was wrong. Every time i uncovered a reason for my condition and a solution, i was ignored by everyone... except for you. Now that my thyroid and hormones are taken care of, I have lost every pound of fat that i thought was permanent and impossible to lose. I look in the mirror and I see the small waist I grew up with that i thought was gone forever. That's all thanks to you and your clinic.",
+      "You've taken care of my health conditions this year to the fullest extent you could.  I have been so miserable these past 15+ years and I always knew something was wrong. Every time I uncovered a reason for my condition and a solution, I was ignored by everyone... except for you. Now that my thyroid and hormones are taken care of, I have lost every pound of fat that I thought was permanent and impossible to lose. I look in the mirror and I see the small waist I grew up with that I thought was gone forever. That's all thanks to you and your clinic.",
+    rating: 5,
+  },
+  {
+    id: 6,
+    name: "Martin T.",
+    role: "Super Dad",
+    image:
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100",
+    quote:
+      "Good morning Ryan - Hey bro! Just wanted to let you know that your staff (Melissa) has been super helpful  and attentive!  You made a good choice with her!  Like I said just thought you should know. Thanks again for all your (and staff’s)  help making me the best me I can be!!! #optimal - Martin Tate",
     rating: 5,
   },
 ];
@@ -126,8 +136,8 @@ export default function ImageTestimonials() {
           </h2>
           <div className="w-20 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-lg text-gray-400">
-            Don't just take our word for it. Here's what our clients have to say
-            about their experience working with us.
+            Don'&apos;'t just take our word for it. Here'&apos;'s what our
+            clients have to say about their experience working with us.
           </p>
         </div>
 
