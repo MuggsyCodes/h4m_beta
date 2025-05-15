@@ -23,7 +23,7 @@ const testimonials = [
     name: "Troy K.",
     role: "Full-Time Dad Mode",
     image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100",
+      "https://images.pexels.com/photos/7298874/pexels-photo-7298874.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     quote:
       "I have more motivation, longer workouts, losing weight, lower Glucose, lower BP. Im thinking I may be able to come off some of my meds with a little more time. I wish I would of know about TRT and Hormonesforme long before now. At 56, I feel better than I have in the last 20. Thank you, Ryan and team. For the first time in a long time I no longer am shying away because of body shame.",
     rating: 5,
@@ -33,7 +33,7 @@ const testimonials = [
     name: "Leo",
     role: "Proud New Dad",
     image:
-      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100",
+      "https://images.pexels.com/photos/17555801/pexels-photo-17555801/free-photo-of-portrait-of-smiling-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     quote:
       "Hey Ryan, happy to say the wife saw two lines on the pregnancy strip. Thanks for your fertility protocol! I'll be sure to let the forums know when i see questions that hormones for me knows what they are doing!",
     rating: 5,
@@ -43,7 +43,7 @@ const testimonials = [
     name: "Michael R.",
     role: "9-5 Warrior",
     image:
-      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100",
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=100",
     quote:
       "Just wanted to thank RYAN for spending the time with my wife today to go over all her labs. I was pretty blown away about the knowledge and also the service. I'm excited to talk to Ryan on my blood work as well. I'm also going to switch my son over to you guys as well so you definitely got three new clients from Matrix.",
     rating: 5,
@@ -53,7 +53,7 @@ const testimonials = [
     name: "Jaye Y.",
     role: "Citizen Scientist",
     image:
-      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100",
+      "https://images.pexels.com/photos/3777946/pexels-photo-3777946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     quote:
       "You've taken care of my health conditions this year to the fullest extent you could.  I have been so miserable these past 15+ years and I always knew something was wrong. Every time I uncovered a reason for my condition and a solution, I was ignored by everyone... except for you. Now that my thyroid and hormones are taken care of, I have lost every pound of fat that I thought was permanent and impossible to lose. I look in the mirror and I see the small waist I grew up with that I thought was gone forever. That's all thanks to you and your clinic.",
     rating: 5,
@@ -63,7 +63,7 @@ const testimonials = [
     name: "Martin T.",
     role: "Super Dad",
     image:
-      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100",
+      "https://images.pexels.com/photos/15076258/pexels-photo-15076258/free-photo-of-portrait-of-smiling-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     quote:
       "Good morning Ryan - Hey bro! Just wanted to let you know that your staff (Melissa) has been super helpful  and attentive!  You made a good choice with her!  Like I said just thought you should know. Thanks again for all your (and staff’s)  help making me the best me I can be!!! #optimal - Martin Tate",
     rating: 5,
@@ -81,9 +81,9 @@ const testimonials = [
   {
     id: 8,
     name: "Alexander D.",
-    role: "Gettin' it Done Dude",
+    role: "Power Player",
     image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100",
+      "https://images.pexels.com/photos/7055896/pexels-photo-7055896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     quote:
       "Thank you so much!! Every time I have to schedule a call or anything I can't ever get over how quick and easy it is with you guys!! I scheduled it for same day! Which is amazing! This truly is the best clinic out there!",
     rating: 5,
@@ -93,7 +93,7 @@ const testimonials = [
     name: "Dixianea",
     role: "Super Mom",
     image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100",
+      "https://images.pexels.com/photos/5491144/pexels-photo-5491144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     quote:
       "This is the best TRT clinic in the USA. Ryan has so much great information and very knowledgeable. I am 50 years old. Feel like I am 25 again. Thanks",
     rating: 5,
