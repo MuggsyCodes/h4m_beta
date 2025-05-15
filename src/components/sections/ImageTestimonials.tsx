@@ -50,7 +50,7 @@ const testimonials = [
   },
   {
     id: 5,
-    name: "Jaye Y.",
+    name: "James Y.",
     role: "Citizen Scientist",
     image:
       "https://images.pexels.com/photos/3777946/pexels-photo-3777946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -160,12 +160,12 @@ export default function ImageTestimonials() {
         style={{ zIndex: -1 }}
       />
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
-        <div className="text-center max-w-2xl mx-auto mb-16">
+        <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="font-manrope text-white text-3xl md:text-4xl font-bold mb-4">
             Client Testimonials
           </h2>
-          <div className="w-20 h-1 bg-white mx-auto mb-6"></div>
-          <p className="text-lg text-gray-400">
+          <div className="w-20 h-1 bg-white mx-auto mb-6 "></div>
+          <p className="text-lg text-gray-400 ">
             Don&apos;t just take our word for it. Here&apos;s what our clients
             have to say about their experience working with us.
           </p>
@@ -175,8 +175,9 @@ export default function ImageTestimonials() {
           <div className="absolute -top-8 -left-8 text-white opacity-20">
             <Quote size={72} />
           </div>
-
-          <div className="bg-[#0A0A0A] p-4 md:p-10 rounded-lg shadow-md relative z-10 h-[500px] flex flex-col items-center text-center justify-start">
+          {/* Testimonial Card */}
+          <div className="bg-[#0A0A0A] p-6 md:p-10 rounded-lg shadow-md relative z-10 h-[450px] flex flex-col items-center text-center justify-start">
+            {/* Circular Image */}
             <div className="w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-white">
               <img
                 src={testimonials[activeIndex].image}
@@ -211,7 +212,7 @@ export default function ImageTestimonials() {
             </div>
           </div>
 
-          <div className="flex justify-center mt-4 md:mt-8 gap-4 absolute left-1/2 -translate-x-1/2 bottom-2 md:static md:translate-x-0 md:bottom-auto w-full">
+          <div className="flex justify-center mt-4 md:mt-8 gap-4 w-full">
             <button
               onClick={handlePrev}
               className="w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-primary hover:bg-gray-50 transition-colors"

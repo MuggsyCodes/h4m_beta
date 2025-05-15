@@ -9,7 +9,7 @@ import { CarouselSpacing } from "@/components/sections/OptimizeCard";
 import EducationSection from "@/components/sections/EducationSection";
 //import Process from "@/components/Process";
 // import ProcessAlt from "@/components/ProcessAlt";
-import Testimonials from "@/components/sections/Testimonials";
+// import Testimonials from "@/components/sections/Testimonials";
 import BookCallSection from "@/components/BookCallSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import FAQ from "@/components/FAQ";
@@ -40,7 +40,7 @@ export default function Home() {
           <Process /> */}
         </div>
         <ImageTestimonials />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <BookCallSection />
         <NewsletterSection />
         <FAQ />
