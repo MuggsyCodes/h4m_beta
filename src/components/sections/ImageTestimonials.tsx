@@ -65,7 +65,7 @@ const testimonials = [
     image:
       "https://images.pexels.com/photos/15076258/pexels-photo-15076258/free-photo-of-portrait-of-smiling-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     quote:
-      "Good morning Ryan - Hey bro! Just wanted to let you know that your staff (Melissa) has been super helpful  and attentive!  You made a good choice with her!  Like I said just thought you should know. Thanks again for all your (and staff’s)  help making me the best me I can be!!! #optimal - Martin Tate",
+      "Good morning Ryan - Hey bro! Just wanted to let you know that your staff (Melissa) has been super helpful  and attentive!  You made a good choice with her!  Like I said just thought you should know. Thanks again for all your (and staff's)  help making me the best me I can be!!! #optimal - Martin Tate",
     rating: 5,
   },
   {
@@ -75,7 +75,7 @@ const testimonials = [
     image:
       "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100",
     quote:
-      "Your customer service makes it very easy to recommend you! Thank you both so much! I want you to know that you recommend me to try hcg to bump up my estrogen a little for my joint pain. I’ve only had 2 doses of hcg 250iu. I’ve already had about a 50% decrease in joint pain! I’m so happy. I’ll bump up the dose a little next time but I’m obviously heading in the right direction. I appreciate your expertise so much!",
+      "Your customer service makes it very easy to recommend you! Thank you both so much! I want you to know that you recommend me to try hcg to bump up my estrogen a little for my joint pain. I've only had 2 doses of hcg 250iu. I've already had about a 50% decrease in joint pain! I'm so happy. I'll bump up the dose a little next time but I'm obviously heading in the right direction. I appreciate your expertise so much!",
     rating: 5,
   },
   {
@@ -176,37 +176,38 @@ export default function ImageTestimonials() {
             <Quote size={72} />
           </div>
 
-          <div className="bg-[#0A0A0A] p-8 md:p-10 rounded-lg shadow-md relative z-10">
-            <div className="flex flex-col items-center text-center">
-              <div className="w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-white">
-                <img
-                  src={testimonials[activeIndex].image}
-                  alt={testimonials[activeIndex].name}
-                  className="w-full h-full object-cover"
+          <div className="bg-[#0A0A0A] p-8 md:p-10 rounded-lg shadow-md relative z-10 h-[500px] flex flex-col items-center text-center justify-start">
+            <div className="w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-white">
+              <img
+                src={testimonials[activeIndex].image}
+                alt={testimonials[activeIndex].name}
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div className="flex mb-4">
+              {[...Array(testimonials[activeIndex].rating)].map((_, i) => (
+                <Star
+                  key={i}
+                  className="w-5 h-5 fill-amber-500 text-amber-500"
                 />
-              </div>
+              ))}
+            </div>
 
-              <div className="flex mb-4">
-                {[...Array(testimonials[activeIndex].rating)].map((_, i) => (
-                  <Star
-                    key={i}
-                    className="w-5 h-5 fill-amber-500 text-amber-500"
-                  />
-                ))}
-              </div>
+            <blockquote
+              className="text-lg md:text-xl italic mb-6 text-white overflow-y-auto"
+              style={{ maxHeight: "180px" }}
+            >
+              {testimonials[activeIndex].quote}
+            </blockquote>
 
-              <blockquote className="text-lg md:text-xl italic mb-6 text-white">
-                {testimonials[activeIndex].quote}
-              </blockquote>
-
-              <div>
-                <p className="font-semibold text-lg text-white">
-                  {testimonials[activeIndex].name}
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  {testimonials[activeIndex].role}
-                </p>
-              </div>
+            <div>
+              <p className="font-semibold text-lg text-white">
+                {testimonials[activeIndex].name}
+              </p>
+              <p className="text-sm text-muted-foreground">
+                {testimonials[activeIndex].role}
+              </p>
             </div>
           </div>
 
