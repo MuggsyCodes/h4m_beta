@@ -176,7 +176,7 @@ export default function ImageTestimonials() {
             <Quote size={72} />
           </div>
 
-          <div className="bg-[#0A0A0A] p-8 md:p-10 rounded-lg shadow-md relative z-10 h-[500px] flex flex-col items-center text-center justify-start">
+          <div className="bg-[#0A0A0A] p-4 md:p-10 rounded-lg shadow-md relative z-10 h-[500px] flex flex-col items-center text-center justify-start">
             <div className="w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-white">
               <img
                 src={testimonials[activeIndex].image}
@@ -211,7 +211,7 @@ export default function ImageTestimonials() {
             </div>
           </div>
 
-          <div className="flex justify-center mt-8 gap-4">
+          <div className="flex justify-center mt-4 md:mt-8 gap-4 absolute left-1/2 -translate-x-1/2 bottom-2 md:static md:translate-x-0 md:bottom-auto w-full">
             <button
               onClick={handlePrev}
               className="w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-primary hover:bg-gray-50 transition-colors"
