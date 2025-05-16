@@ -18,8 +18,9 @@ const H4MProcessSteps = () => {
             health.
           </p>
 
+          {/* The following block is commented out:
           <div className="flex justify-center mb-8">
-            {/* Duplicated Lab Deep Dive Card */}
+            {/* Duplicated Lab Deep Dive Card
             <div className="group relative bg-black/30 rounded-2xl p-6 border border-gray-800 transition-all duration-300 hover:shadow-[0_0_45px_rgba(239,68,68,0.57)] flex flex-col max-w-sm w-full">
               <div className="w-14 h-14 rounded-full bg-red-500/20 flex items-center justify-center mb-4">
                 <svg
@@ -36,7 +37,7 @@ const H4MProcessSteps = () => {
                 results and hand you a playbook for next-level living.
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Kickstart Quiz */}
