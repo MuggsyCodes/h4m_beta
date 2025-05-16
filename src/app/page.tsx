@@ -14,6 +14,8 @@ import BookCallSection from "@/components/BookCallSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import FAQ from "@/components/FAQ";
 import ImageTestimonials from "@/components/sections/ImageTestimonials";
+import IntakeFlowDiagram from "@/components/ui/IntakeFlowDiagram";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-black w-full overflow-x-hidden">
@@ -22,6 +24,7 @@ export default function Home() {
         <EducationSection />
         <ScrollButtons />
         <Explanatory />
+        <IntakeFlowDiagram />
         <H4MProcessSteps />
         {/* <GuidedOptimization /> */}
         {/* <FeaturedOn /> */}
