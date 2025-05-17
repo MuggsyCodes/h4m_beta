@@ -52,29 +52,24 @@ export default function FlowDiagram() {
 
   const yesPathSteps = [
     {
-      title: "Review Blood Work",
-      description: "Initial review of client's existing blood work",
+      title: "Optimantra Onboarding Form",
+      description: "New Client Questionnaire",
       icon: FileCheck,
     },
     {
-      title: "Analysis",
+      title: "Meet Customer Care Coordinator",
       description: "Detailed analysis of blood work results",
       icon: FlaskConical,
     },
     {
-      title: "Recommendations",
-      description: "Create personalized recommendations",
+      title: "Meet our Physician",
+      description: "Telemedicine visit to review results",
       icon: Pencil,
     },
     {
-      title: "Schedule Consultation",
-      description: "Book follow-up consultation",
+      title: "Your Products Ship",
+      description: "Personalized products shipped to your door",
       icon: Calendar,
-    },
-    {
-      title: "Client Onboarding",
-      description: "Complete the onboarding process",
-      icon: UserCheck,
     },
   ];
 
@@ -101,7 +96,7 @@ export default function FlowDiagram() {
     },
     {
       title: "Meet our Physician",
-      description: "Quick telemedicine visit to review results",
+      description: "Telemedicine visit to review results",
       icon: UserCheck,
     },
     {
