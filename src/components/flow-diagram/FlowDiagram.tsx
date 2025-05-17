@@ -55,21 +55,29 @@ export default function FlowDiagram() {
       title: "Optimantra Onboarding Form",
       description: "New Client Questionnaire",
       icon: FileCheck,
+      details:
+        "Begin your journey by completing our onboarding form. This helps us understand your needs and goals from the start.",
     },
     {
       title: "Meet Customer Care Coordinator",
       description: "Detailed analysis of blood work results",
       icon: FlaskConical,
+      details:
+        "Our customer care coordinator will review your information and guide you through the next steps tailored to you.",
     },
     {
       title: "Meet our Physician",
       description: "Telemedicine visit to review results",
       icon: Pencil,
+      details:
+        "Connect with our physician for a personalized telemedicine consultation to discuss your results and recommendations.",
     },
     {
       title: "Your Products Ship",
       description: "Personalized products shipped to your door",
       icon: Calendar,
+      details:
+        "Receive your custom-selected products directly at your doorstep, designed to support your health journey.",
     },
   ];
 
@@ -78,31 +86,43 @@ export default function FlowDiagram() {
       title: "Optimantra Onboarding Form",
       description: "New Client Questionnaire",
       icon: ClipboardCheck,
+      details:
+        "Start by filling out our onboarding form so we can get to know you and your health background.",
     },
     {
       title: "Request Blood Work",
       description: "Provide instructions for required tests",
       icon: Activity,
+      details:
+        "We'll provide you with instructions to complete your blood work at a convenient location.",
     },
     {
       title: "Schedule Physical",
       description: "Physical exam to make sure we have a solid baseline",
       icon: Calendar,
+      details:
+        "Book a physical exam to establish a comprehensive baseline for your personalized plan.",
     },
     {
       title: "Meet Customer Care Coordinator",
       description: "Personalized game plan",
       icon: FileCheck,
+      details:
+        "Our coordinator will walk you through your results and help you understand your next steps.",
     },
     {
       title: "Meet our Physician",
       description: "Telemedicine visit to review results",
       icon: UserCheck,
+      details:
+        "Discuss your results and recommendations with our physician in a convenient telemedicine session.",
     },
     {
       title: "Your Products Ship",
       description: "Personalized products shipped to your door",
       icon: Calendar,
+      details:
+        "Your personalized products will be shipped to your home, supporting your ongoing wellness.",
     },
   ];
 
@@ -262,8 +282,8 @@ export default function FlowDiagram() {
                     </h4>
                     <p className="text-muted-foreground">
                       {selectedPath === "yes"
-                        ? `Detailed information about the ${yesPathSteps[activeStep].title.toLowerCase()} step in our client intake process. This step is crucial for clients who already have blood work results.`
-                        : `Detailed information about the ${noPathSteps[activeStep].title.toLowerCase()} step in our client intake process. This step helps new clients become part of the H4M Team.`}
+                        ? yesPathSteps[activeStep].details
+                        : noPathSteps[activeStep].details}
                     </p>
                     <div className="flex justify-between mt-6 items-center">
                       <Button
