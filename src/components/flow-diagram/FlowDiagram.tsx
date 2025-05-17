@@ -77,19 +77,24 @@ export default function FlowDiagram() {
       icon: Activity,
     },
     {
-      title: "Follow-up",
-      description: "Schedule follow-up after tests",
+      title: "Schedule Physical",
+      description: "Physical exam to make sure we have a solid baseline",
       icon: Calendar,
     },
     {
-      title: "Results Review",
-      description: "Review test results when available",
+      title: "Meet Customer Care Coordinator",
+      description: "Personalized game plan",
       icon: FileCheck,
     },
     {
-      title: "Client Onboarding",
-      description: "Complete the onboarding process",
+      title: "Meet our Physician",
+      description: "Quick telemedicine visit to review results",
       icon: UserCheck,
+    },
+    {
+      title: "Your Products Ship",
+      description: "Personalized products shipped to your door",
+      icon: Calendar,
     },
   ];
 
@@ -287,7 +292,7 @@ export default function FlowDiagram() {
                               rel="noopener noreferrer"
                             >
                               <Button className="bg-red-600 hover:bg-red-700 text-white">
-                                Start here
+                                Start Form
                               </Button>
                             </a>
                           </motion.div>
