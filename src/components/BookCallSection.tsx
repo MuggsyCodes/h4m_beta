@@ -24,7 +24,9 @@ export default function BookCallSection() {
             services align with your goals.
           </p>
           <a
-            href="/book-call"
+            href="https://calendly.com/hormonesforme/call-w-customer-care-representative"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block border border-white text-white px-8 py-3 rounded hover:bg-white hover:text-black transition-colors duration-300"
           >
             Book a free call
