@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   // ChevronRight,
@@ -22,6 +22,19 @@ import FlowConnector from "./FlowConnector";
 export default function FlowDiagram() {
   const [selectedPath, setSelectedPath] = useState<"yes" | "no" | null>(null);
   const [activeStep, setActiveStep] = useState<number | null>(null);
+
+  // Refs for step icons
+  const stepRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  useEffect(() => {
+    if (activeStep !== null && stepRefs.current[activeStep]) {
+      stepRefs.current[activeStep]?.scrollIntoView({
+        behavior: "smooth",
+        inline: "center",
+        block: "nearest",
+      });
+    }
+  }, [activeStep, selectedPath]);
 
   const handlePathSelect = (path: "yes" | "no") => {
     setSelectedPath(path);
@@ -208,6 +221,9 @@ export default function FlowDiagram() {
                         <div
                           key={index}
                           className="relative flex flex-col items-center"
+                          ref={(el) => {
+                            stepRefs.current[index] = el;
+                          }}
                         >
                           <FlowNode
                             title={step.title}
