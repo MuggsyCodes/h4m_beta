@@ -11,17 +11,10 @@ export default function BookCallSection() {
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="max-w-xl mb-0 md:mb-0">
-          <h2 className="text-4xl font-semibold mb-4">
-            Want To Talk To A
-            <br />
-            Team Member About
-            <br />
-            <span className="text-[#7DCCCC]">Hormones for Me?</span>
-          </h2>
+          <h2 className="text-4xl font-semibold mb-4">Talk To A Team Member</h2>
           <p className="text-gray-400 text-lg mb-8">
-            In this 30 minute session, we&apos;ll delve into your health goals,
-            objectives, and challenges. Your input will help us assess if our
-            services align with your goals.
+            In this 30 minute session, we&apos;ll delve into your goals,
+            objectives, and challenges.
           </p>
           <a
             href="https://calendly.com/hormonesforme/call-w-customer-care-representative"
