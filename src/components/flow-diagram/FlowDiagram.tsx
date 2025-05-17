@@ -67,8 +67,8 @@ export default function FlowDiagram() {
 
   const noPathSteps = [
     {
-      title: "Initial Assessment",
-      description: "Preliminary health assessment",
+      title: "Optimantra Onboarding Form",
+      description: "New Client Questionnaire",
       icon: ClipboardCheck,
     },
     {
@@ -247,9 +247,9 @@ export default function FlowDiagram() {
                     <p className="text-muted-foreground">
                       {selectedPath === "yes"
                         ? `Detailed information about the ${yesPathSteps[activeStep].title.toLowerCase()} step in our client intake process. This step is crucial for clients who already have blood work results.`
-                        : `Detailed information about the ${noPathSteps[activeStep].title.toLowerCase()} step in our client intake process. This step helps clients who don't yet have blood work results.`}
+                        : `Detailed information about the ${noPathSteps[activeStep].title.toLowerCase()} step in our client intake process. This step helps new clients become part of the H4M Team.`}
                     </p>
-                    <div className="flex justify-between mt-6">
+                    <div className="flex justify-between mt-6 items-center">
                       <Button
                         variant="outline"
                         disabled={activeStep === 0}
@@ -262,6 +262,36 @@ export default function FlowDiagram() {
                       >
                         Previous
                       </Button>
+                      {selectedPath === "no" &&
+                        noPathSteps[activeStep].title ===
+                          "Optimantra Onboarding Form" && (
+                          <motion.div
+                            animate={{
+                              scale: [1, 1.05, 1],
+                              boxShadow: [
+                                "0 0 0 0 rgba(220, 38, 38, 0)",
+                                "0 0 20px 2px rgba(220, 38, 38, 0.3)",
+                                "0 0 0 0 rgba(220, 38, 38, 0)",
+                              ],
+                            }}
+                            transition={{
+                              duration: 1.5,
+                              repeat: Infinity,
+                              ease: "easeInOut",
+                            }}
+                            className="flex justify-center rounded-md"
+                          >
+                            <a
+                              href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Button className="bg-red-600 hover:bg-red-700 text-white">
+                                Start here
+                              </Button>
+                            </a>
+                          </motion.div>
+                        )}
                       <Button
                         disabled={
                           activeStep ===
