@@ -168,7 +168,7 @@ export default function FlowDiagram() {
                   onClick={() => handlePathSelect("yes")}
                   disabled={selectedPath !== null}
                   variant="outline"
-                  className="border-red-800 text-red-500 hover:bg-red-950 hover:text-red-400 transition-colors duration-300"
+                  className="bg-neutral-900 border-red-800 text-red-500 hover:bg-red-950 hover:text-red-400 transition-colors duration-300"
                 >
                   Yes
                 </Button>
@@ -194,7 +194,7 @@ export default function FlowDiagram() {
                   onClick={() => handlePathSelect("no")}
                   disabled={selectedPath !== null}
                   variant="outline"
-                  className="border-red-800 text-red-500 hover:bg-red-950 hover:text-red-400 transition-colors duration-300"
+                  className="bg-neutral-900 border-red-800 text-red-500 hover:bg-red-950 hover:text-red-400 transition-colors duration-300"
                 >
                   No
                 </Button>
