@@ -328,6 +328,36 @@ export default function FlowDiagram() {
                             </a>
                           </motion.div>
                         )}
+                      {selectedPath === "yes" &&
+                        yesPathSteps[activeStep].title ===
+                          "Optimantra Onboarding Form" && (
+                          <motion.div
+                            animate={{
+                              scale: [1, 1.05, 1],
+                              boxShadow: [
+                                "0 0 0 0 rgba(220, 38, 38, 0)",
+                                "0 0 20px 2px rgba(220, 38, 38, 0.3)",
+                                "0 0 0 0 rgba(220, 38, 38, 0)",
+                              ],
+                            }}
+                            transition={{
+                              duration: 1.5,
+                              repeat: Infinity,
+                              ease: "easeInOut",
+                            }}
+                            className="flex justify-center rounded-md"
+                          >
+                            <a
+                              href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Button className="bg-red-600 hover:bg-red-700 text-white">
+                                Start Form
+                              </Button>
+                            </a>
+                          </motion.div>
+                        )}
                       <Button
                         disabled={
                           activeStep ===
