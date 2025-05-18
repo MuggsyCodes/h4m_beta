@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 
-interface FormData {
-  firstName: string;
-  lastName: string;
-  email: string;
-}
+//interface FormData {
+//  firstName: string;
+//  lastName: string;
+//  email: string;
+//}
 
 export default function NewsletterSection() {
   return (

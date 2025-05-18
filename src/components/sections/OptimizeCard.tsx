@@ -9,19 +9,19 @@ import {
 } from "@/components/ui/carousel";
 
 const cardContent = [
-  { title: "Unleash Your Alpha Male", image: "goal-image-1.webp" },
-  { title: "Keep Your Mane Legendary", image: "goal-image-2.webp" },
-  { title: "Burn Fat. Break Limits.", image: "goal-image-3.webp" },
-  { title: "Ignite Mental Clarity", image: "goal-image-4.webp" },
-  { title: "Crash Hard. Wake Up Unstoppable.", image: "goal-image-5.webp" },
+  { title: "Unleash Your Alpha Male", image: "legendary_mane_1.png" },
+  { title: "Keep Your Mane Legendary", image: "legendary_mane_1.png" },
+  { title: "Burn Fat. Break Limits.", image: "burn_fat.png" },
+  { title: "Ignite Mental Clarity", image: "legendary_mane_1.png" },
+  { title: "Crash Hard. Wake Up Unstoppable.", image: "legendary_mane_1.png" },
   {
     title: "Turn Up the Heat - Anytime, Anywhere.",
-    image: "goal-image-6.webp",
+    image: "legendary_mane_1.png",
   },
-  { title: "Crush Limits. Build Power.", image: "goal-image-7.webp" },
-  { title: "Build Your Aerobic Engine", image: "goal-image-8.webp" },
-  { title: "Boost Your Legacy", image: "goal-image-9.webp" },
-  { title: "Defy Time", image: "goal-image-10.webp" },
+  { title: "Crush Limits. Build Power.", image: "legendary_mane_1.png" },
+  { title: "Build Your Aerobic Engine", image: "legendary_mane_1.png" },
+  { title: "Boost Your Legacy", image: "legendary_mane_1.png" },
+  { title: "Defy Time", image: "legendary_mane_1.png" },
 ];
 
 export function CarouselSpacing() {
@@ -43,7 +43,7 @@ export function CarouselSpacing() {
               <div className="relative aspect-[4/5] group cursor-pointer">
                 <div className="absolute inset-0 overflow-hidden rounded-2xl border border-white/20">
                   <Image
-                    src={`https://images.marekhealth.com/website_assets/homepage/${card.image}`}
+                    src={`/${card.image}`}
                     alt={card.title}
                     width={400}
                     height={500}
