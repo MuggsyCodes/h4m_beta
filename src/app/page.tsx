@@ -15,8 +15,8 @@ import NewsletterSection from "@/components/NewsletterSection";
 import FAQ from "@/components/FAQ";
 import ImageTestimonials from "@/components/sections/ImageTestimonials";
 import IntakeFlowDiagram from "@/components/ui/IntakeFlowDiagram";
-import PulsatingOrb from "@/components/PulsatingOrb/PulsatingOrb";
-import NeomorphicButton from "@/components/InteractiveGetEducated/NeomorphicButton";
+// import PulsatingOrb from "@/components/PulsatingOrb/PulsatingOrb";
+// import NeomorphicButton from "@/components/InteractiveGetEducated/NeomorphicButton";
 import InteractiveCTA from "@/components/InteractiveGetEducated/InteractiveCTA";
 export default function Home() {
   return (
