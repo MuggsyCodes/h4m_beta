@@ -8,7 +8,7 @@ export default function InteractiveCTA() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="w-full max-w-md mx-auto">
+    <div className="max-w-md mx-auto px-[6vw] sm:px-0">
       <motion.div
         className="relative bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-lg"
         initial={{ borderRadius: 16 }}
