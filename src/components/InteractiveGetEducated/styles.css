@@ -1,0 +1,230 @@
+/* Base styles for all buttons */
+.interactive-base {
+  position: relative;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+}
+
+/* Ripple Button */
+.ripple-button {
+  composes: interactive-base;
+  width: 200px;
+  height: 64px;
+  background: #111;
+  border-radius: 32px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.ripple-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 100%;
+  color: white;
+}
+
+.ripple-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.ripple-text {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.ripple-rings {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid white;
+  opacity: 0;
+}
+
+.ripple-button.animate .ring:nth-child(1) {
+  width: 20px;
+  height: 20px;
+  animation: ripple 1s ease-out;
+}
+
+.ripple-button.animate .ring:nth-child(2) {
+  width: 30px;
+  height: 30px;
+  animation: ripple 1s ease-out 0.2s;
+}
+
+.ripple-button.animate .ring:nth-child(3) {
+  width: 40px;
+  height: 40px;
+  animation: ripple 1s ease-out 0.4s;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+/* Neomorphic Button */
+.neomorphic-button {
+  composes: interactive-base;
+  width: 200px;
+  height: 64px;
+  background: #e0e0e0;
+  border-radius: 32px;
+  transition: all 0.3s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.neomorphic-inner {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 32px;
+  background: #e0e0e0;
+  box-shadow:
+    20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+}
+
+.neomorphic-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow:
+    inset 5px 5px 10px #bebebe,
+    inset -5px -5px 10px #ffffff;
+}
+
+.neomorphic-icon {
+  width: 24px;
+  height: 24px;
+  color: #666;
+}
+
+.neomorphic-text {
+  font-weight: 500;
+  color: #666;
+}
+
+.neomorphic-button:hover {
+  transform: scale(1.02);
+}
+
+.neomorphic-button:active {
+  transform: scale(0.98);
+}
+
+/* Glow Button */
+.glow-button {
+  composes: interactive-base;
+  width: 200px;
+  height: 64px;
+  background: black;
+  border-radius: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.glow-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: white;
+}
+
+.glow-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.glow-text {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.glow-effect {
+  position: absolute;
+  inset: -5px;
+  background: conic-gradient(
+    from 0deg,
+    transparent,
+    white,
+    transparent,
+    transparent
+  );
+  animation: rotate 4s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.glow-button:hover .glow-effect {
+  opacity: 0.1;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+  .ripple-button,
+  .neomorphic-button,
+  .glow-button {
+    width: 160px;
+    height: 56px;
+  }
+
+  .ripple-icon,
+  .neomorphic-icon,
+  .glow-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .ripple-text,
+  .neomorphic-text,
+  .glow-text {
+    font-size: 14px;
+  }
+}

@@ -6,7 +6,7 @@ import H4MProcessSteps from "@/components/ProcessOption";
 import { ScrollButtons } from "@/components/sections/ButtonCarousel";
 // import Call2Action from "@/components/sections/Call2Action";
 import { CarouselSpacing } from "@/components/sections/OptimizeCard";
-import EducationSection from "@/components/sections/EducationSection";
+//import EducationSection from "@/components/sections/EducationSection";
 //import Process from "@/components/Process";
 // import ProcessAlt from "@/components/ProcessAlt";
 // import Testimonials from "@/components/sections/Testimonials";
@@ -15,13 +15,18 @@ import NewsletterSection from "@/components/NewsletterSection";
 import FAQ from "@/components/FAQ";
 import ImageTestimonials from "@/components/sections/ImageTestimonials";
 import IntakeFlowDiagram from "@/components/ui/IntakeFlowDiagram";
-
+import PulsatingOrb from "@/components/PulsatingOrb/PulsatingOrb";
+import NeomorphicButton from "@/components/InteractiveGetEducated/NeomorphicButton";
+import InteractiveCTA from "@/components/InteractiveGetEducated/InteractiveCTA";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black w-full overflow-x-hidden">
       <div className="max-w-[100vw] overflow-x-hidden">
         <Hero />
-        <EducationSection />
+        <PulsatingOrb />
+        <NeomorphicButton />
+        <InteractiveCTA />
+        {/* <EducationSection /> */}
         <ScrollButtons />
         <Explanatory />
         <IntakeFlowDiagram />
