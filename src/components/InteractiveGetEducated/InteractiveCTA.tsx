@@ -3,9 +3,11 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, BookOpen, X } from "lucide-react";
+import { EducationModal } from "../EducationModal";
 
 export default function InteractiveCTA() {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <div className="max-w-md mx-auto px-[6vw] sm:px-0">
@@ -97,6 +99,7 @@ export default function InteractiveCTA() {
                 className="group w-full flex items-center justify-center gap-2 bg-black text-white px-6 py-4 rounded-xl font-medium text-lg"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
+                onClick={() => setIsModalOpen(true)}
               >
                 <span>Explore Knowledge Hub</span>
                 <motion.div
@@ -112,6 +115,13 @@ export default function InteractiveCTA() {
                   <ArrowRight className="h-5 w-5" />
                 </motion.div>
               </motion.button>
+              {isModalOpen && (
+                <EducationModal
+                  trigger={null}
+                  isOpen={isModalOpen}
+                  setIsOpen={setIsModalOpen}
+                />
+              )}
             </motion.div>
           )}
         </AnimatePresence>

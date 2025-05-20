@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 interface EducationModalProps {
-  trigger: React.ReactNode;
+  isOpen: boolean;
+  setIsOpen: (open: boolean) => void;
 }
 
-export function EducationModal({ trigger }: EducationModalProps) {
-  const [isOpen, setIsOpen] = useState(false);
+export function EducationModal({ isOpen, setIsOpen }: EducationModalProps) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -61,15 +61,7 @@ export function EducationModal({ trigger }: EducationModalProps) {
   };
 
   return (
-    <div>
-      <button
-        onClick={() => setIsOpen(true)}
-        className="inline-block bg-transparent text-white border-2 border-white px-8 py-2 rounded-full hover:bg-white hover:text-black transition-all duration-300"
-      >
-        {trigger}
-      </button>
-
-      {/* Modal content */}
+    <>
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
@@ -158,6 +150,7 @@ export function EducationModal({ trigger }: EducationModalProps) {
                   </label>
                   <select
                     id="Conact form interest:"
+                    title="What interests you?"
                     value={formData.interest}
                     onChange={(e) =>
                       setFormData({ ...formData, interest: e.target.value })
@@ -193,6 +186,6 @@ export function EducationModal({ trigger }: EducationModalProps) {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }

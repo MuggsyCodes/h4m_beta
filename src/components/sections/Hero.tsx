@@ -117,14 +117,16 @@ export default function Hero() {
               ))}
             </ul>
 
-            <a
-              href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg md:text-xl text-center hover:bg-white hover:text-black transition-colors font-medium mb-10"
-            >
-              Start today
-            </a>
+            {false && (
+              <a
+                href="https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=Zm8yWlliS1dGaDVXRXN0bTIyOS9Pdz09"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg md:text-xl text-center hover:bg-white hover:text-black transition-colors font-medium mb-10"
+              >
+                Start today
+              </a>
+            )}
           </motion.div>
         </div>
       </div>
