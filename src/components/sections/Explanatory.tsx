@@ -40,7 +40,7 @@ export default function Explanatory() {
               >
                 You&apos;re not.
               </motion.span>
-              You deserve a smarter way to thrive.
+              You deserve a smarter way.
             </motion.h2>
           </div>
 
@@ -54,7 +54,24 @@ export default function Explanatory() {
               ease: "easeOut",
             }}
           >
-            Break the rules - own your health.
+            Break the rules - own{" "}
+            <motion.span
+              className="text-red-500 inline-block"
+              initial={{ scale: 0.5, opacity: 0 }}
+              animate={
+                isInView ? { scale: 1, opacity: 1 } : { scale: 0.5, opacity: 0 }
+              }
+              transition={{
+                delay: 0.5,
+                duration: 0.4,
+                type: "spring",
+                stiffness: 200,
+                damping: 10,
+              }}
+            >
+              Your
+            </motion.span>
+            health.
           </motion.p>
         </div>
       </div>
