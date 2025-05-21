@@ -20,7 +20,7 @@ const cardContent = [
   },
   { title: "Crush Limits. Build Power.", image: "build_power_2.png" },
   { title: "Build Your Aerobic Engine", image: "legendary_mane_1.png" },
-  { title: "Boost Your Legacy", image: "legendary_mane_1.png" },
+  { title: "Create Your Legacy", image: "proud_dad_1.png" },
   { title: "Defy Time", image: "legendary_mane_1.png" },
 ];
 
