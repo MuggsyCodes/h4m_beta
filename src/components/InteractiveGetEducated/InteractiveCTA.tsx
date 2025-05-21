@@ -117,7 +117,6 @@ export default function InteractiveCTA() {
               </motion.button>
               {isModalOpen && (
                 <EducationModal
-                  trigger={null}
                   isOpen={isModalOpen}
                   setIsOpen={setIsModalOpen}
                 />
