@@ -2,16 +2,16 @@ import { cn } from "@/lib/utils";
 import { Marquee } from "@/components/magicui/marquee";
 
 const phrases = [
-  "Testosterone",
-  "Erectile Dysfunction",
-  "Heart Health",
-  "Fertility",
-  "Look Younger",
-  "Think Sharper",
-  "Perform Better",
-  "Weight Loss",
-  "Stop Hair Loss",
-  "Sleep Better",
+  "Unleash Your Alpha",
+  "Keep Your Mane Legendary",
+  "Burn Fat Break Limits",
+  "Ignite Mental Clarity",
+  "Wake Up Unstoppable",
+  "Turn Up the Heat - Anytime",
+  "Crush Limits Build Power",
+  "Build Aerobic Engine",
+  "Create Your Legacy",
+  "Defy Time",
 ];
 
 const PhraseCard = ({ text }: { text: string }) => {

@@ -1,7 +1,7 @@
 import Hero from "@/components/sections/Hero";
 import Explanatory from "@/components/sections/Explanatory";
 // import GuidedOptimization from "@/components/sections/GuidedOptimization";
-import H4MProcessSteps from "@/components/ProcessOption";
+//import H4MProcessSteps from "@/components/ProcessOption";
 //import FeaturedOn from "@/components/sections/FeaturedOn";
 import { ScrollButtons } from "@/components/sections/ButtonCarousel";
 // import Call2Action from "@/components/sections/Call2Action";
@@ -25,12 +25,14 @@ export default function Home() {
         <Hero />
         {/* <PulsatingOrb /> */}
         {/* <NeomorphicButton /> */}
-        <InteractiveCTA />
+        <div className="mb-10 sm:mb-12 md:mb-16">
+          <InteractiveCTA />
+        </div>
         {/* <EducationSection /> */}
         <ScrollButtons />
         <Explanatory />
         <IntakeFlowDiagram />
-        <H4MProcessSteps />
+        {/* <H4MProcessSteps /> */}
         {/* <GuidedOptimization /> */}
         {/* <FeaturedOn /> */}
         {/* <Call2Action /> */}
