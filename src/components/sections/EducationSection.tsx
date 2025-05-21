@@ -1,8 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import { EducationModal } from "@/components/EducationModal";
 
 export default function EducationSection() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <section
       id="education"
@@ -10,13 +12,13 @@ export default function EducationSection() {
       style={{ scrollMarginTop: "90px" }}
     >
       <div className="container mx-auto px-4 text-center">
-        <EducationModal
-          trigger={
-            <span className="inline-block bg-white text-black px-10 py-6 rounded-full text-2xl md:text-4xl font-bold shadow-lg hover:bg-gray-100 transition-colors">
-              Get Educated
-            </span>
-          }
-        />
+        <button
+          onClick={() => setIsOpen(true)}
+          className="inline-block bg-white text-black px-10 py-6 rounded-full text-2xl md:text-4xl font-bold shadow-lg hover:bg-gray-100 transition-colors"
+        >
+          Get Educated
+        </button>
+        <EducationModal isOpen={isOpen} setIsOpen={setIsOpen} />
       </div>
     </section>
   );
