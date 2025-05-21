@@ -33,8 +33,8 @@ export default function NewsletterSection() {
             rel="noopener noreferrer"
           >
             <img
-              src="/H4M_banner.jpg"
-              alt="Hormones for Me YouTube Channel - Members Only"
+              src="/H4m_banner.jpg"
+              alt="Hormones for Me YouTube Channel"
               className="rounded-lg shadow-lg w-full max-w-xs"
             />
           </a>
