@@ -36,7 +36,7 @@ export default function Footer() {
 
           {/* More Info */}
           <div className="md:text-left">
-            <div className="flex flex-row items-center justify-between gap-4 mt-6 md:mt-8">
+            <div className="flex flex-row items-center justify-between gap-4 mt-1 md:mt-6">
               <div className="flex-1 text-xs text-gray-400">
                 <div className="font-semibold mb-1">Address</div>
                 <div>
@@ -46,12 +46,12 @@ export default function Footer() {
                 </div>
               </div>
               <div className="flex-1 flex justify-center items-center">
-                <Image
+                {/*<Image
                   src="/legit-script.webp"
                   alt="LegitScript Certified"
                   width={48}
                   height={48}
-                />
+                />*/}
               </div>
             </div>
           </div>
@@ -90,57 +90,55 @@ export default function Footer() {
           </div>
 
           {/* Follow us */}
-          <div className="text-left">
-            <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6">
-              Follow us
-            </h3>
-            <div className="flex justify-start space-x-4">
-              <a
-                href="https://instagram.com/hormonesformen"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Instagram size={32} className="md:size-12" />
-                <span className="sr-only">Instagram</span>
-              </a>
-              <a
-                href="https://twitter.com/hormonesformen"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Twitter size={32} className="md:size-12" />
-                <span className="sr-only">Twitter</span>
-              </a>
-              <a
-                href="https://youtube.com/hormonesformen"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Youtube size={32} className="md:size-12" />
-                <span className="sr-only">YouTube</span>
-              </a>
-              <a
-                href="https://facebook.com/hormonesformen"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Facebook size={32} className="md:size-12" />
-                <span className="sr-only">Facebook</span>
-              </a>
-              <a
-                href="https://linkedin.com/company/hormonesformen"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Linkedin size={32} className="md:size-12" />
-                <span className="sr-only">LinkedIn</span>
-              </a>
-            </div>
+          <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6">
+            Follow us
+          </h3>
+          <div className="flex justify-start space-x-4">
+            <a
+              href="https://instagram.com/hormonesformen"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              <Instagram size={32} className="md:size-12" />
+              <span className="sr-only">Instagram</span>
+            </a>
+            <a
+              href="https://twitter.com/hormonesformen"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              <Twitter size={32} className="md:size-12" />
+              <span className="sr-only">Twitter</span>
+            </a>
+            <a
+              href="https://youtube.com/hormonesformen"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              <Youtube size={32} className="md:size-12" />
+              <span className="sr-only">YouTube</span>
+            </a>
+            <a
+              href="https://facebook.com/hormonesformen"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              <Facebook size={32} className="md:size-12" />
+              <span className="sr-only">Facebook</span>
+            </a>
+            <a
+              href="https://linkedin.com/company/hormonesformen"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              <Linkedin size={32} className="md:size-12" />
+              <span className="sr-only">LinkedIn</span>
+            </a>
           </div>
         </div>
       </div>

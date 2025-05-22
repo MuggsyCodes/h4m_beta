@@ -70,7 +70,7 @@ export default function Explanatory() {
               }}
             >
               Your
-            </motion.span>
+            </motion.span>{" "}
             health.
           </motion.p>
         </div>

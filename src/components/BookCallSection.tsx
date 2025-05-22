@@ -25,9 +25,9 @@ export default function BookCallSection() {
             Book a free call
           </a>
         </div>
-        <div className="relative w-full md:w-1/2 h-[400px]">
+        <div className="relative w-full md:w-1/2 h-[325px]">
           <Image
-            src="/phone-calendar.webp"
+            src="/left_hand.png"
             alt="Phone showing calendar"
             fill
             className="object-contain"
