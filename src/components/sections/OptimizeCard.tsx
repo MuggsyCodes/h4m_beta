@@ -9,11 +9,11 @@ import {
 } from "@/components/ui/carousel";
 
 const cardContent = [
-  { title: "Unleash Your Alpha Male", image: "legendary_mane_1.png" },
+  { title: "Unleash Your Alpha", image: "legendary_mane_1.png" },
   { title: "Keep Your Mane Legendary", image: "legendary_mane_1.png" },
   { title: "Burn Fat. Break Limits.", image: "burn_fat.png" },
-  { title: "Ignite Mental Clarity", image: "legendary_mane_1.png" },
-  { title: "Crash Hard. Wake Up Unstoppable.", image: "legendary_mane_1.png" },
+  { title: "Ignite Mental Clarity", image: "mental_clarity.png" },
+  { title: "Crash Hard. Wake Up Unstoppable.", image: "wakeup_refreshed.png" },
   {
     title: "Turn Up the Heat - Anytime, Anywhere.",
     image: "legendary_mane_1.png",
@@ -21,7 +21,7 @@ const cardContent = [
   { title: "Crush Limits. Build Power.", image: "build_power_2.png" },
   { title: "Build Your Aerobic Engine", image: "legendary_mane_1.png" },
   { title: "Create Your Legacy", image: "proud_dad_1.png" },
-  { title: "Defy Time", image: "legendary_mane_1.png" },
+  { title: "Defy Time", image: "defy_time.png" },
 ];
 
 export function CarouselSpacing() {
