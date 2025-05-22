@@ -12,7 +12,7 @@ import { CarouselSpacing } from "@/components/sections/OptimizeCard";
 // import Testimonials from "@/components/sections/Testimonials";
 import BookCallSection from "@/components/BookCallSection";
 import NewsletterSection from "@/components/NewsletterSection";
-import FAQ from "@/components/FAQ";
+// import FAQ from "@/components/FAQ";
 import ImageTestimonials from "@/components/sections/ImageTestimonials";
 import IntakeFlowDiagram from "@/components/ui/IntakeFlowDiagram";
 // import PulsatingOrb from "@/components/PulsatingOrb/PulsatingOrb";

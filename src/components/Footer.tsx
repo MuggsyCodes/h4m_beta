@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Instagram, Twitter, Youtube, Facebook, Linkedin } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Footer() {
   return (
